@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    BRAND: process.env.BRAND,
+  },
 }
 
 module.exports = nextConfig

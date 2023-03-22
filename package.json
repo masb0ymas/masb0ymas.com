@@ -1,29 +1,57 @@
 {
-  "name": "mantine-minimal-next-template",
-  "version": "0.1.0",
+  "name": "masb0ymas.com",
+  "version": "0.0.0",
+  "description": "website masb0ymas.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm-run-all lint typecheck",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "npx tsc --noEmit",
+    "prerelease": "npm-run-all prebuild",
+    "release": "standard-version",
+    "release:pre": "npm run release -- --prerelease",
+    "release:patch": "npm run release -- --release-as patch",
+    "release:minor": "npm run release -- --release-as minor",
+    "release:major": "npm run release -- --release-as major"
+  },
+  "author": "masb0ymas <n.fajri@outlook.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16.x"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
     "@mantine/core": "6.0.0",
     "@mantine/hooks": "6.0.0",
+    "@mantine/modals": "^6.0.4",
     "@mantine/next": "6.0.0",
+    "@mantine/notifications": "^6.0.4",
+    "@mantine/nprogress": "^6.0.4",
+    "@tabler/icons-react": "^2.11.0",
+    "@tanstack/react-query": "^4.28.0",
+    "@tanstack/react-query-devtools": "^4.28.0",
+    "cookies-next": "^2.1.1",
+    "lodash": "^4.17.21",
     "next": "13.2.3",
+    "npm-run-all": "^4.1.5",
+    "path-to-regexp": "^6.2.1",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.191",
     "@types/node": "18.14.4",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
+    "standard-version": "^9.5.0",
     "typescript": "4.9.5"
   }
 }
