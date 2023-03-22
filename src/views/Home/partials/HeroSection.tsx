@@ -107,6 +107,9 @@ export default function HeroSection() {
 
         <Group className={classes.controls}>
           <Button
+            component="a"
+            href='https://expresso.masb0ymas.com'
+            target="_blank"
             size="xl"
             className={classes.control}
             variant="gradient"
