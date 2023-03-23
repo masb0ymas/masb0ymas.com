@@ -34,7 +34,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
     <>
       <Head>
         <title>{`${BRAND} Stack`}</title>
-        <link rel="shortcut icon" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon_io/favicon.ico" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

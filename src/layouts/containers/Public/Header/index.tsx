@@ -11,11 +11,7 @@ import {
   UnstyledButton,
 } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
-import {
-  IconBrandGithub,
-  IconChevronDown,
-  IconSquareRoundedLetterM,
-} from '@tabler/icons-react'
+import { IconChevronDown } from '@tabler/icons-react'
 import { BRAND } from 'config/env'
 import { ColorSchemeToggle } from 'core/components/ColorSchemeToggle/ColorSchemeToggle'
 import useNavMenu from 'data/useNavMenu'
@@ -124,11 +120,9 @@ export default function PublicHeader() {
     <Header height={56}>
       <Container>
         <div className={classes.inner}>
-          <UnstyledButton>
-            <Group>
-              <Text weight={600}>{BRAND}</Text>
-            </Group>
-          </UnstyledButton>
+          <Text weight={600} size="lg">
+            {BRAND}
+          </Text>
 
           <Group spacing={5} className={classes.links}>
             {items}
