@@ -14,10 +14,6 @@ export interface MainLinkProps extends LinkProps {
 function useNavMenu(): { data: MainLinkProps[]; total: number } {
   const data = [
     {
-      link: '/about',
-      label: 'Features',
-    },
-    {
       link: '/blog',
       label: 'Blog',
     },
