@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/masb0ymas/masb0ymas.com/compare/v0.0.2...v0.1.0) (2023-05-07)
+
+
+### Bug Fixes
+
+* dockerfile ([a4dd783](https://github.com/masb0ymas/masb0ymas.com/commit/a4dd7835aa8cc5af9cfae94721a541e81a3bc911))
+
 ### [0.0.2](https://github.com/masb0ymas/masb0ymas.com/compare/v0.0.1...v0.0.2) (2023-05-07)
 
 
