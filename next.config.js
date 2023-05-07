@@ -5,6 +5,7 @@ const nextConfig = {
   env: {
     BRAND: process.env.BRAND,
   },
+  output: 'standalone',
 }
 
 module.exports = nextConfig
