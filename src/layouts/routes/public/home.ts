@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 
-const PublicContainer = dynamic(() => import('layouts/containers/Public'))
+const PublicContainer = dynamic(() => import('~/layouts/containers/Public'))
 
 const routes = [
   {

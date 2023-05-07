@@ -8,7 +8,7 @@ import {
   Text,
 } from '@mantine/core'
 import { IconBrandGithub } from '@tabler/icons-react'
-import { BRAND } from 'config/env'
+import { BRAND } from '~/config/env'
 
 const useStyles = createStyles((theme) => ({
   wrapper: {

@@ -12,9 +12,9 @@ import {
 } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
 import { IconChevronDown } from '@tabler/icons-react'
-import { BRAND } from 'config/env'
-import { ColorSchemeToggle } from 'core/components/ColorSchemeToggle/ColorSchemeToggle'
-import useNavMenu from 'data/useNavMenu'
+import { BRAND } from '~/config/env'
+import { ColorSchemeToggle } from '~/core/components/ColorSchemeToggle/ColorSchemeToggle'
+import useNavMenu from '~/data/useNavMenu'
 
 const useStyles = createStyles((theme) => ({
   inner: {

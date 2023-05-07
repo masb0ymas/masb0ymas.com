@@ -5,16 +5,16 @@ import {
 } from '@mantine/core'
 import { ModalsProvider } from '@mantine/modals'
 import { Notifications } from '@mantine/notifications'
-import { BRAND } from 'config/env'
 import { getCookie, setCookie } from 'cookies-next'
-import { RouterTransition } from 'core/components/RouterTransition'
-import getSiteLayout from 'layouts/core'
 import _ from 'lodash'
 import { GetServerSidePropsContext } from 'next'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useState } from 'react'
 import slugify from 'slugify'
+import { BRAND } from '~/config/env'
+import { RouterTransition } from '~/core/components/RouterTransition'
+import getSiteLayout from '~/layouts/core'
 
 const brand = _.toLower(slugify(BRAND))
 const cookieName = `${brand}-color-scheme`
@@ -86,5 +86,5 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
 }
 
 App.getInitialProps = ({ ctx }: { ctx: GetServerSidePropsContext }) => ({
-  colorScheme: getCookie(cookieName, ctx) || 'light',
+  colorScheme: getCookie(cookieName, ctx) || 'dark',
 })
