@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/masb0ymas/masb0ymas.com/compare/v0.1.0...v0.1.1) (2023-07-06)
+
+
+### Bug Fixes
+
+* update dockerfile ([6de23d0](https://github.com/masb0ymas/masb0ymas.com/commit/6de23d05b3c16015879642f947b7764a072638aa))
+* update page _app ([0a9d7fb](https://github.com/masb0ymas/masb0ymas.com/commit/0a9d7fb532c6d638c1c2358bc7fe3edb6655cec4))
+
 ## [0.1.0](https://github.com/masb0ymas/masb0ymas.com/compare/v0.0.2...v0.1.0) (2023-05-07)
 
 
