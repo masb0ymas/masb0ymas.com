@@ -1,6 +1,6 @@
 FROM node:18-alpine AS base
 LABEL author="masb0ymas"
-LABEL name="karcisbola"
+LABEL name="masb0ymas.com"
 
 # Install dependencies only when needed
 FROM base AS deps
