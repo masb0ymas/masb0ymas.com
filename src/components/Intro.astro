@@ -1,0 +1,83 @@
+---
+import { MY_NAME, MY_POSITION, SITE_URL } from "~/config";
+
+const socialMedias = [
+  {
+    icon: "ti ti-brand-x",
+    name: "Twitter",
+    link: "https://x.com/masb0ymas",
+  },
+  {
+    icon: "ti ti-brand-linkedin",
+    name: "Linkedin",
+    link: "https://linkedin.com/in/masb0ymas",
+  },
+  {
+    icon: "ti ti-brand-github",
+    name: "Github",
+    link: "https://github.com/masb0ymas",
+  },
+  {
+    icon: "ti ti-mail",
+    name: "Email",
+    link: "mailto:n.fajri@outlook.com",
+  },
+  {
+    icon: "ti ti-rss",
+    name: "RSS",
+    link: "/rss.xml",
+  },
+];
+---
+
+<section class="mb-8">
+  <div class="flex justify-start">
+    <img
+      src={`${SITE_URL}/images/avatar.jpeg`}
+      alt="avatar"
+      class="relative inline-block h-[110px] w-[110px] !rounded-full object-cover object-center"
+    />
+
+    <div class="pl-4 mb-4">
+      <h1
+        class="font-extrabold text-3xl md:text-4xl tracking-tight pt-4 pb-2 overflow-hidden"
+      >
+        <span
+          class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
+        >
+          {MY_NAME}
+        </span>
+      </h1>
+      <p class="text-xl md:text-2xl pb-4">{MY_POSITION}</p>
+    </div>
+  </div>
+
+  <div class="mb-5">
+    {
+      socialMedias.map((item) => {
+        return (
+          <a
+            class="unset text-xl mr-4 hover:text-text-link"
+            href={item.link}
+            target="_blank"
+          >
+            <i class={item.icon} aria-hidden="true" />
+          </a>
+        );
+      })
+    }
+  </div>
+
+  <div>
+    <p class="mb-5">
+      Hi there 👋 thanks for coming, I write docs or tutorials on web
+      development and deployment mostly about Web2, Web3 and DevOps.
+      <span>
+        For the profile page you can check this link:
+        <a href="https://www.masb0ymas.my.id" target="_blank">
+          https://masb0ymas.my.id
+        </a>
+      </span>
+    </p>
+  </div>
+</section>
