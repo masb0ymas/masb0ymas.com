@@ -1,9 +1,9 @@
 ---
-import { readAll } from "../lib/markdoc/read";
-import { project } from "../lib/markdoc/frontmatter.schema";
-import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
-import { SITE_TITLE } from "../config";
+import { SITE_TITLE, SITE_URL } from "../config";
+import PageLayout from "../layouts/PageLayout.astro";
+import { project } from "../lib/markdoc/frontmatter.schema";
+import { readAll } from "../lib/markdoc/read";
 
 const projects = await readAll({
   directory: "projects",
@@ -23,7 +23,7 @@ const sortedProjects = projects
   <PageMeta title={`Projects | ${SITE_TITLE}`} slot="meta" />
   <main slot="main">
     <h1
-      class="font-extrabold text-2xl md:text-3xl tracking-tight pt-4 pb-2 overflow-hidden"
+      class="font-extrabold text-2xl md:text-3xl tracking-tight pt-4 pb-5 overflow-hidden"
     >
       <span
         class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
@@ -32,41 +32,35 @@ const sortedProjects = projects
       </span>
     </h1>
 
-    <section>
-      <ul>
-        {
-          sortedProjects.map((project) => {
-            const formattedDate = new Date(
-              project.frontmatter.date
-            ).toLocaleDateString("en-us", {
-              year: "numeric",
-              month: "short",
-              day: "numeric",
-            });
-            return (
-              <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
-                <div class="title">
-                  <a
-                    href={project.frontmatter.url}
-                    target="_blank"
-                    class="unset hover:text-text-link"
-                  >
-                    <span>{project.frontmatter.title}</span>
-                    <span>
-                      <i class="ml-1 mr-1 text-[12px] pb-2 fa-solid fa-up-right-from-square" />
-                    </span>
+    <div class="flex flex-wrap mb-4">
+      {
+        sortedProjects.map((item) => {
+          return (
+            <div class="w-full lg:w-1/2 px-3">
+              <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <a href={`${item.frontmatter.url}`} target="_blank">
+                  <img
+                    class="w-full"
+                    src={`${SITE_URL}${item.frontmatter.thumbnail_image}`}
+                    alt="Sunset in the mountains"
+                  />
+                </a>
+
+                <div class="py-4">
+                  <a href={`${item.frontmatter.url}`} target="_blank">
+                    <div class="font-bold text-xl mb-2">
+                      {item.frontmatter.title}
+                    </div>
                   </a>
+                  <p class="text-gray-500 text-sm">
+                    {item.frontmatter.description}
+                  </p>
                 </div>
-                <div class="text-text-muted text-sm italic pt-1">
-                  <time datetime={project.frontmatter.date.toISOString()}>
-                    {formattedDate}
-                  </time>
-                </div>
-              </li>
-            );
-          })
-        }
-      </ul>
-    </section>
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
   </main>
 </PageLayout>
