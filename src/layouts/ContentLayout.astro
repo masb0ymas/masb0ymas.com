@@ -10,6 +10,7 @@ import "../styles/global.css";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Favicon from "./Favicon.astro";
+import GoogleAnalytic from "./GoogleAnalytic.astro";
 import GoogleFont from "./GoogleFont.astro";
 import TablerIcon from "./TablerIcon.astro";
 import ThemeScript from "./ThemeScript.astro";
@@ -39,6 +40,7 @@ const formattedDate = new Date(date).toLocaleDateString("en-us", {
     <GoogleFont />
     <ThemeScript />
     <TablerIcon />
+    <GoogleAnalytic />
   </head>
 
   <body class="min-h-screen max-w-3xl mx-auto px-6 sm:px-8">
