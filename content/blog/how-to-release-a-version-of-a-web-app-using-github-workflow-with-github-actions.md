@@ -17,6 +17,9 @@ You can see the version tag of this repository.
 
 ![Github-Tags](/static/blog/github-actions/github-tags.webp)
 
+For information about release versions you can read the blog about
+[Semantic Release](/blog/why-i-use-semantic-versioning)
+
 [GitHub Workflows](https://docs.github.com/en/actions/using-workflows) are typically used to Test a `library` or `project` before sending a `Pull Request` for a Feature or Issue of your code to collaborate with others developers.
 
 For more information about GitHub Workflow you can read the official docs is here:
