@@ -258,6 +258,20 @@ certificatesResolvers:
         entryPoint: web
 ```
 
+## Set environment variables
+
+You can duplicate .env.example to .env
+
+```yaml
+BASE_URL=yourdomain.com
+
+# base app
+TRAEFIK_URL=traefik.${BASE_URL}
+
+# secret app
+DB_PASSWORD=your_secret_db_password
+```
+
 ## Setup Makefile for easily run command
 
 If you have never installed a makefile on your vps, you can run this command for Ubuntu or Debian OS.
