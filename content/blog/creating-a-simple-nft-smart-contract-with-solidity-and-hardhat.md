@@ -1,8 +1,8 @@
 ---
 external: false
 draft: false
-title: "How to Implement ERC-721 Tokens with Solidity and Hardhat?"
-description: "You can deploy and release NFT Tokens with Solidity and HardhatJs easily"
+title: "Creating a Simple NFT Smart Contract with Solidity and Hardhat"
+description: "You can deploy and release NFT Tokens with Solidity and Hardhat easily"
 date: 2024-08-04
 ---
 
