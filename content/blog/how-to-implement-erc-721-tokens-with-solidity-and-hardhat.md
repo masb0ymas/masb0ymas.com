@@ -254,7 +254,9 @@ If you verified on Sepolia Etherscan, you can use the `Read Contract` and `Write
 
 ![NFT-Smart-Contract](/static/blog/nft-smart-contract/nft-1.webp)
 
-Finally, you can minting NFT with smart contract.
+Finally, you can minting NFT with smart contract. 
+
+You can check the repository about this blog. [https://github.com/masb0ymas/learn-hardhat](https://github.com/masb0ymas/learn-hardhat)
 
 ## Conclusion
 
