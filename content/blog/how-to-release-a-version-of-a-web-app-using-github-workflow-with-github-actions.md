@@ -4,6 +4,7 @@ draft: false
 title: "How to release a version of a web app using GitHub Workflow with GitHub Actions"
 description: "You can release a version of a web app using GitHub Workflow with GitHub Actions more easily"
 date: 2024-07-14
+tags: ["github-actions", "docker"]
 ---
 
 Maybe you ask me, why do I use a release version for a web application or library?

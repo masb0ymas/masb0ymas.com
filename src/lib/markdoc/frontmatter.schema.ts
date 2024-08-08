@@ -27,6 +27,7 @@ export const blog = z.discriminatedUnion("external", [
   // markdown
   baseSchema.extend({
     external: z.literal(false),
+    tags: z.array(z.string()),
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
@@ -34,6 +35,8 @@ export const blog = z.discriminatedUnion("external", [
   // external link
   baseSchema.extend({
     external: z.literal(true),
+    tags: z.array(z.string()),
+    description: z.optional(z.string()),
     url: z.string({
       required_error:
         "external is true but url is missing. url must be set for posts marked as external.",

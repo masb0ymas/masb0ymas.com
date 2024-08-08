@@ -53,6 +53,13 @@ const sortedPosts = posts
               month: "short",
               day: "numeric",
             });
+
+            const description = post.frontmatter.description;
+            const short_description =
+              description && description?.length > 80
+                ? `${description?.substring(0, 80)}...`
+                : description;
+
             return (
               <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
                 <div class="title">
@@ -68,15 +75,27 @@ const sortedPosts = posts
                       </span>
                     </a>
                   ) : (
-                    <a
-                      href={`/blog/${post.slug}`}
-                      class="unset hover:text-text-link"
-                    >
-                      {post.frontmatter.title}
-                    </a>
+                    <div class="grid gap-2 pb-4">
+                      <a
+                        href={`/blog/${post.slug}`}
+                        class="unset hover:text-text-link"
+                      >
+                        {post.frontmatter.title}
+                      </a>
+                      <p class="text-gray-400 text-sm">{short_description}</p>
+                      <div class="flex gap-2">
+                        {post.frontmatter.tags.map((tag) => {
+                          return (
+                            <span class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] text-xs font-bold px-2.5 py-0.5 rounded dark:from-primary-main dark:via-primary-main dark:to-primary-main dark:text-gray-700 text-white border-orange-300 dark:border-yellow-300">
+                              {tag}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    </div>
                   )}
                 </div>
-                <div class="text-text-muted text-sm italic">
+                <div class="text-text-muted text-sm italic m-auto">
                   <time datetime={post.frontmatter.date.toISOString()}>
                     {formattedDate}
                   </time>

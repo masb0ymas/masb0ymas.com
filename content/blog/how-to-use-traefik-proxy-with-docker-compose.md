@@ -4,6 +4,7 @@ draft: false
 title: "How to Use Traefik Proxy with Docker Compose?"
 description: "An easy way to deploy web applications with Traefik Proxy and auto-generated SSL"
 date: 2024-07-21
+tags: ["docker", "traefik"]
 ---
 
 Maybe you've never heard of `Traefik Proxy` because it usually uses `Nginx` or `Apache`. Why use `Traefik Proxy`? Using `Nginx` or `Apache` is better. Maybe that's what you think. There's nothing wrong with using `Nginx` or `Apache`, but if you have lots of applications or web services it will be messy. You may be confused about the maintenance of each service.

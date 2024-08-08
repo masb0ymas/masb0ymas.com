@@ -4,6 +4,7 @@ draft: false
 title: "Why I Use Semantic Versioning?"
 description: "An easy way to change the application version using semantic versioning"
 date: 2024-07-20
+tags: ["semver"]
 ---
 
 What do version numbers mean? 

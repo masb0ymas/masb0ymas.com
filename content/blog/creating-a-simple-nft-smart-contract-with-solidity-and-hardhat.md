@@ -4,6 +4,7 @@ draft: false
 title: "Creating a Simple NFT Smart Contract with Solidity and Hardhat"
 description: "You can deploy and release NFT Tokens with Solidity and Hardhat easily"
 date: 2024-08-04
+tags: ["web3", "solidity"]
 ---
 
 Before we create NFT Tokens with Solidity and Hardhat, let's talk about Solidity. What is Solidity? What is the Hardhat Framework?
