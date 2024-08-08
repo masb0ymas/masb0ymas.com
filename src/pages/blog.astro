@@ -1,14 +1,25 @@
 ---
-import { readAll } from "../lib/markdoc/read";
-import { blog } from "../lib/markdoc/frontmatter.schema";
-import PageLayout from "../layouts/PageLayout.astro";
+import _ from "lodash";
+import { capitalizeFirstLetter } from "~/utils/string";
 import PageMeta from "../components/PageMeta.astro";
 import { SITE_TITLE } from "../config";
+import PageLayout from "../layouts/PageLayout.astro";
+import { blog } from "../lib/markdoc/frontmatter.schema";
+import { readAll } from "../lib/markdoc/read";
 
 const posts = await readAll({
   directory: "blog",
   frontmatterSchema: blog,
 });
+
+const tags = [];
+
+for (let i = 0; i < posts.length; i += 1) {
+  const item = posts[i];
+
+  tags.push(...item.frontmatter.tags);
+}
+const uniq_tags = _.uniq(tags);
 
 const sortedPosts = posts
   .filter((p) => p.frontmatter.draft !== true)
@@ -23,15 +34,30 @@ const sortedPosts = posts
   <PageMeta title={`Blog | ${SITE_TITLE}`} slot="meta" />
 
   <main slot="main">
-    <h1
-      class="font-extrabold text-2xl md:text-3xl tracking-tight pt-4 pb-2 overflow-hidden"
-    >
-      <span
-        class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
+    <div class="flex justify-between">
+      <h1
+        class="font-extrabold text-2xl md:text-3xl tracking-tight py-2 overflow-hidden"
       >
-        Writing
-      </span>
-    </h1>
+        <span
+          class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
+        >
+          Writing
+        </span>
+      </h1>
+      <div class="my-auto w-32 sm:w-36">
+        <select
+          id="tags"
+          class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
+        >
+          <option selected>Search by tags</option>
+          {
+            uniq_tags.map((tag) => {
+              return <option value={tag}>{capitalizeFirstLetter(tag)}</option>;
+            })
+          }
+        </select>
+      </div>
+    </div>
 
     <section>
       <ul>
@@ -77,7 +103,7 @@ const sortedPosts = posts
                       <div class="flex gap-2">
                         {post.frontmatter.tags.map((tag) => {
                           return (
-                            <span class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] text-xs font-bold px-2.5 py-0.5 rounded dark:from-primary-main dark:via-primary-main dark:to-primary-main dark:text-gray-700 text-white border-orange-300 dark:border-yellow-300">
+                            <span class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] text-xs font-bold px-2.5 py-0.5 rounded dark:from-primary-main dark:via-primary-main dark:to-primary-main dark:text-gray-800 text-white border-orange-300 dark:border-yellow-300">
                               {tag}
                             </span>
                           );
