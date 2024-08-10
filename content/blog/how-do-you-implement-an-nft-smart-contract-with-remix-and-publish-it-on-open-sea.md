@@ -194,6 +194,6 @@ With Remix IDE, we can create Smart Contracts and also Deploy Smart Contracts wi
 Thank you very much [Filebase](https://filebase.com/).
 
 ## Source
-- [https://www.quicknode.com/guides/ethereum-development/nfts/how-to-create-and-deploy-an-erc-721-nft](https://www.quicknode.com/guides/ethereum-development/nfts/how-to-create-and-deploy-an-erc-721-nft)
+- [https://www.quicknode.com](https://www.quicknode.com/guides/ethereum-development/nfts/how-to-create-and-deploy-an-erc-721-nft)
 - [https://rundiffusion.com/](https://rundiffusion.com/)
 - [https://filebase.com/](https://filebase.com/)
