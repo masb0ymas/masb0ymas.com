@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "How to Use Traefik Proxy with Docker Compose?"
-description: "An easy way to deploy web applications with Traefik Proxy and auto-generated SSL"
+description: "In this tutorial, you’ll learn how to integrate Traefik, a dynamic reverse proxy, with Docker Compose to manage and route traffic to your containerized applications. We’ll guide you through the setup process, including configuring Traefik to automatically discover and route traffic to your services, setting up secure HTTPS connections, and handling multiple services with ease. Whether you're new to Traefik or looking to enhance your Docker-based infrastructure, this guide will provide you with the knowledge to effectively use Traefik Proxy alongside Docker Compose for scalable and efficient service management."
 date: 2024-07-21
 tags: ["docker", "traefik"]
 ---

@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "How to release a version of a web app using GitHub Workflow with GitHub Actions"
-description: "You can release a version of a web app using GitHub Workflow with GitHub Actions more easily"
+description: "Releasing a new version of your web app can be streamlined and automated using GitHub Workflow and GitHub Actions. In this step-by-step guide, you’ll learn how to set up a CI/CD pipeline that automates the release process, from code integration to deployment. We’ll cover how to create a workflow file, configure GitHub Actions to build and test your app, and automate versioning and deployment to your chosen environment. Whether you're managing a small project or a complex application, this guide will help you ensure consistent and reliable releases directly from your GitHub repository."
 date: 2024-07-14
 tags: ["github-actions", "docker"]
 ---

@@ -2,7 +2,7 @@
 external: false
 draft: false
 title: "Creating a Simple NFT Smart Contract with Solidity and Hardhat"
-description: "You can deploy and release NFT Tokens with Solidity and Hardhat easily"
+description: "This tutorial provides a clear and concise introduction to creating a simple NFT smart contract using Solidity and Hardhat. You’ll learn how to set up Hardhat, a powerful Ethereum development environment, and write a basic NFT contract in Solidity, the programming language for Ethereum. We’ll guide you through each step, from project setup to contract deployment on a test network. Perfect for beginners, this guide will equip you with the foundational knowledge needed to build and deploy your own NFTs on the Ethereum blockchain, preparing you for more advanced smart contract development."
 date: 2024-08-04
 tags: ["web3", "solidity"]
 ---

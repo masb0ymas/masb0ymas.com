@@ -56,8 +56,8 @@ const sortedPosts = posts
 
             const description = post.frontmatter.description;
             const short_description =
-              description && description?.length > 80
-                ? `${description?.substring(0, 80)}...`
+              description && description?.length > 170
+                ? `${description?.substring(0, 170)}...`
                 : description;
 
             return (
