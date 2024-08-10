@@ -179,7 +179,7 @@ Confirm the transaction with a Metamask Wallet
 
 ![Mint With Metamask](/static/blog/nft-remix/minting-metamask.webp)
 
-We can access the block transactions after minting from the smart contract. [https://sepolia.etherscan.io/tx/0xbc36bbd8cec63ccc94a857119b8424a05a95c754c301d3cd21dce3778748151e](https://sepolia.etherscan.io/tx/0xbc36bbd8cec63ccc94a857119b8424a05a95c754c301d3cd21dce3778748151e)
+We can access the block transactions after minting from the smart contract. [https://sepolia.etherscan.io](https://sepolia.etherscan.io/tx/0xbc36bbd8cec63ccc94a857119b8424a05a95c754c301d3cd21dce3778748151e)
 
 ## NFT Collections on OpenSea
 
