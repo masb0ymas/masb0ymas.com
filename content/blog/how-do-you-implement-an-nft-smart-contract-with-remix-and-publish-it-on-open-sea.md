@@ -4,7 +4,7 @@ draft: false
 title: "How do you implement an NFT Smart Contract with Remix and publish it on OpenSea?"
 description: "In this comprehensive guide, we’ll walk you through the step-by-step process of creating and deploying an NFT smart contract using Remix, a powerful Ethereum IDE. Whether you're new to blockchain development or looking to refine your skills, this tutorial covers everything from setting up your development environment to writing and testing your smart contract code. We’ll also guide you through the deployment process, showing you how to mint and list your NFTs on OpenSea, one of the largest NFT marketplaces. By the end of this guide, you’ll have a fully functional NFT smart contract live on the Ethereum blockchain that is available for purchase on OpenSea."
 date: 2024-08-10
-tags: ["web3", "solidity", "remix"]
+tags: ["web3", "solidity", "NFT", "remix"]
 ---
 
 Previously I have explained about creating a simple NFT smart contract. You can read this blog [Creating a Simple NFT Smart Contract with Solidity and Hardhat](/blog/creating-a-simple-nft-smart-contract-with-solidity-and-hardhat).
