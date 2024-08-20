@@ -18,6 +18,16 @@ const socialMedias = [
     link: "https://github.com/masb0ymas",
   },
   {
+    icon: "ti ti-heart-handshake",
+    name: "Support Me",
+    link: "https://s.id/masb0ymas",
+  },
+  {
+    icon: "ti ti-brand-whatsapp",
+    name: "Whatsapp",
+    link: "https://api.whatsapp.com/send/?phone=+6287837554403&text=Hi, I am interested in your portfolio, would you be willing to discuss it with me?",
+  },
+  {
     icon: "ti ti-mail",
     name: "Email",
     link: "mailto:n.fajri@outlook.com",
@@ -31,16 +41,18 @@ const socialMedias = [
 ---
 
 <section class="mb-8">
-  <div class="flex justify-start">
-    <img
-      src={`${SITE_URL}/static/images/avatar.webp`}
-      alt="avatar"
-      class="relative inline-block h-[110px] w-[110px] !rounded-full object-cover object-center"
-    />
+  <div class="flex gap-3 sm:gap-5 justify-start items-center py-6">
+    <div class="avatar">
+      <div
+        class="ring-[#fb923c] dark:ring-yellow-400 ring-offset-base-100 w-20 rounded-full ring ring-offset-2"
+      >
+        <img src="/static/images/avatar.webp" alt="avatar" />
+      </div>
+    </div>
 
-    <div class="pl-4 mb-4">
+    <div class="sm:px-0 px-2">
       <h1
-        class="font-extrabold text-2xl md:text-3xl tracking-tight pt-4 pb-2 overflow-hidden"
+        class="font-extrabold text-2xl md:text-3xl tracking-tight overflow-hidden"
       >
         <span
           class="bg-gradient-to-br from-[#fb923c] via-[#f97316] to-[#ea580c] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
@@ -48,7 +60,7 @@ const socialMedias = [
           {MY_NAME}
         </span>
       </h1>
-      <p class="text-lg md:text-xl pb-4">{MY_POSITION}</p>
+      <h2 class="text-lg md:text-xl">{MY_POSITION}</h2>
     </div>
   </div>
 
