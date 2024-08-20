@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.17.7",
+    "daisyui": "^4.12.10",
     "prettier-plugin-astro": "^0.14.0",
     "typescript": "^5.5.3"
   }
