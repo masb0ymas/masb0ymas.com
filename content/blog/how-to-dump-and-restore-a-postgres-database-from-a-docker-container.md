@@ -67,6 +67,8 @@ Once we have created docker-compose, we can run docker-compose like this:
 docker compose up -d
 ```
 
+For more information about Postgres doc images, you can read the Postgres registry repository here: [https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)
+
 This quick explanation assumes you don't have anything installed directly on your development machine, so everything is run directly from and to the PostgreSQL Docker container you're running.
 
 ### Dump database using "pg_dump"
