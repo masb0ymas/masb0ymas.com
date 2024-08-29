@@ -1,6 +1,6 @@
 ---
 import _ from "lodash";
-import { capitalizeFirstLetter } from "~/utils/string";
+import SearchBar from "~/components/SearchBar.astro";
 import PageMeta from "../components/PageMeta.astro";
 import { SITE_TITLE } from "../config";
 import PageLayout from "../layouts/PageLayout.astro";
@@ -34,7 +34,7 @@ const sortedPosts = posts
   <PageMeta title={`Blog | ${SITE_TITLE}`} slot="meta" />
 
   <main slot="main">
-    <div class="flex justify-between">
+    <div class="flex">
       <h1
         class="font-extrabold text-2xl md:text-3xl tracking-tight py-2 overflow-hidden"
       >
@@ -44,20 +44,9 @@ const sortedPosts = posts
           Writing
         </span>
       </h1>
-      <div class="my-auto w-32 sm:w-36">
-        <select
-          id="tags"
-          class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
-        >
-          <option selected>Search by tags</option>
-          {
-            uniq_tags.map((tag) => {
-              return <option value={tag}>{capitalizeFirstLetter(tag)}</option>;
-            })
-          }
-        </select>
-      </div>
     </div>
+
+    <SearchBar />
 
     <section>
       <ul>
