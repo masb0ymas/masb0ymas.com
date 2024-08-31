@@ -1,0 +1,114 @@
+---
+external: false
+draft: false
+title: "How to Use Environment Variables in Sveltekit"
+description: "This blog post provides a comprehensive guide on using environment variables in SvelteKit to manage configurations and sensitive data securely. It details how to set up environment variables in .env files, use the PUBLIC_ prefix to control their exposure to client-side code, and access these variables using dynamic / static env."
+date: 2024-08-31
+tags: ["env", "svelte", "sveltekit"]
+---
+
+![Sveltekit](/static/blog/sveltekit/svelte.webp)
+
+## What is an environment variable?
+
+Environment variables are variables in your system that describe your environment.
+
+For example, on Unix-like operating systems like Mac and Linux, if we type `echo $HOME` in the terminal, we will get the path to home. The same is true if we type `echo $PATH` to list the path to an executable file.
+
+We can set environment variables and they are useful for knowing whether you are in development or production or storing API tokens securely.
+
+In development, you store environment variables in a `.env` file which should be added to `.gitignore`.
+
+To help yourself and others in the future, it is a good idea to create a `.env.example` file with placeholder values ​​that are safe to upload so you know what keys you need.
+
+## Using Environment Variables in Sveltekit
+
+SvelteKit exposes four different `modules` for handling environment variables:
+
+- `Static`
+  - [`$env/static/private`](https://kit.svelte.dev/docs/modules)
+  - [`$env/static/public`](https://kit.svelte.dev/docs/modules)
+- `Dynamic`
+  - [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules)
+  - [`$env/dynamic/public`](https://kit.svelte.dev/docs/modules)
+
+You can load environment variables however you want like using `import.meta.env` from Vite or dotenv but it’s easier and more secure if you use the built-in modules SvelteKit provides.
+
+### Static for variables during the build process
+
+If you’re not sure which one to pick you probably want to use `$env/static` variables which are imported during build time.
+
+If you have an `.env` file or store your environment variables somewhere else the next steps are the same.
+
+```yaml
+.env
+
+# Private
+SECRET_API_KEY=secret
+
+# Public
+PUBLIC_API_KEY=public
+```
+
+For `.server` use private environment and for client side we can use public environment with `PUBLIC_` prefix.
+
+```ts
++page.server.ts
+
+import { SECRET_API_KEY } from '$env/static/private'
+
+export async function load() {
+  console.log(SECRET_API_KEY) // secret 🤫
+}
+```
+
+Private environment can only be used with server side e.g. pages in `.server` route
+
+```ts
++page.ts
+
+import { PUBLIC_API_KEY } from '$env/static/public'
+
+export async function load() {
+  console.log(PUBLIC_API_KEY) // public 📣
+}
+```
+
+Public environment can only be used with client side.
+
+### Dynamic for variables during runtime
+
+If you have environment variables that change or you can't set them during build, you can use the `$env/dynamic` import which allows you to access environment variables from the platform your application is running on.
+
+Use `$env/dynamic/private` to get access to environment variables equivalent to `process.env`
+
+```ts
++page.server.ts
+
+import { env } from '$env/dynamic/private'
+
+export async function load() {
+  console.log(env.SECRET_API_KEY) // secret 🤫
+}
+```
+
+Use `$env/dynamic/public` to get access to environment variables prefixed with `PUBLIC_`
+
+```ts
++page.ts
+
+import { env } from '$env/dynamic/public'
+
+export async function load() {
+  console.log(env.PUBLIC_API_KEY) // public 📣
+}
+```
+
+## Conclusion
+
+Environment variables are used for development process, it is important in development. There are many ways to use environment variables and you can also manage the environment with a third party to secure the environment variables.
+Sveltekit provides several ways to use environment variables scoped as `static` or `dynamic`.
+
+## Source
+
+- [https://joyofcode.xyz/sveltekit-environment-variables](https://joyofcode.xyz/sveltekit-environment-variables)
