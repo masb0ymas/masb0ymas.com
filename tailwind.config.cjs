@@ -1,5 +1,3 @@
-import daisyui from "daisyui";
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.astro"],
@@ -112,5 +110,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [require("@tailwindcss/typography"), daisyui],
+  plugins: [require("@tailwindcss/typography")],
 };
