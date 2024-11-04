@@ -38,6 +38,8 @@ First, create a new GitHub repository for your project. You can do this by navig
 
 Next, create a new Google Cloud project. You can do this by navigating to the Google Cloud console and clicking on the "Create project" button. Follow the prompts to create a new project with the desired name and region.
 
+![Enable Service API](/static/blog/ci-cd-github-actions-gcp/enable_artifact_registry.webp)
+
 ## Step 3: Create a Google Cloud Artifact Registry repository
 
 After creating a new Google Cloud project, you will need to create a new Artifact Registry repository. You can do this by navigating to the Artifact Registry section of the Google Cloud console and clicking on the "Create repository" button. Follow the prompts to create a new repository with the desired name and description.
