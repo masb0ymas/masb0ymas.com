@@ -14,7 +14,7 @@ export default function CTA() {
             Do you need additional developers as full-time/part-time/freelance workers?
           </p>
 
-          <Button className="bg-primary-200 hover:bg-primary-100/80 h-10 cursor-pointer px-6 text-sm text-neutral-800 transition-colors duration-300 lg:text-base">
+          <Button className="bg-primary-200 hover:bg-primary-200/80 h-10 cursor-pointer px-6 text-sm text-neutral-800 transition-colors duration-300 lg:text-base">
             <a href="mailto:me@masb0ymas.com" target="_blank" rel="noopener noreferrer">
               Contact me
             </a>
