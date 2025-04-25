@@ -3,10 +3,10 @@ import { env } from '~/lib/constant/env'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-neutral-700/80 py-4 dark:border-neutral-200/80">
+    <footer className="border-t bg-neutral-900 py-4">
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <div className="flex items-center justify-center">
-          <p className="text-sm text-neutral-800 lg:text-base dark:text-white">
+          <p className="text-sm text-white lg:text-base">
             &copy; {new Date().getFullYear()} {env.APP_NAME}. All rights reserved.
           </p>
         </div>

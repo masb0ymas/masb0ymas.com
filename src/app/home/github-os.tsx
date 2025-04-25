@@ -49,7 +49,7 @@ export default function GithubOS() {
   return (
     <section className="px-4 py-10 md:px-6 lg:py-20">
       <div className="mx-auto max-w-4xl">
-        <h2 className="mb-6 text-center text-2xl font-bold lg:mb-10 lg:text-4xl">
+        <h2 className="mb-6 text-center text-2xl font-bold text-neutral-800 lg:mb-10 lg:text-4xl dark:text-white">
           Github Open Source
         </h2>
       </div>

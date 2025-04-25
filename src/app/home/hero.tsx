@@ -4,6 +4,7 @@ import {
   IconBrandLinkedin,
   IconBrandX,
   IconFileSpark,
+  IconMail,
 } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -32,6 +33,11 @@ const socials = [
     icon: IconBrandGithub,
   },
   {
+    name: 'Email',
+    href: 'mailto:me@masb0ymas.com',
+    icon: IconMail,
+  },
+  {
     name: 'Resume',
     href: 'https://drive.google.com/file/d/1An3Sb1dhqLFqtNt7fXvf5qK0HN_vovLV/view?usp=sharing',
     icon: IconFileSpark,
@@ -45,12 +51,12 @@ export default function Hero() {
         <div className="grid h-full grid-cols-2 items-center gap-4 lg:gap-8">
           <div className="col-span-full lg:col-span-1">
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold lg:text-4xl">
+              <h2 className="text-2xl font-bold text-neutral-800 lg:text-5xl dark:text-white">
                 Hi, I&apos;m{' '}
                 <span className="dark:text-primary-100 text-primary-200">N. Fajri</span>, <br /> a{' '}
-                <span className="underline">Software Engineer</span>.
+                <span className="underline lg:text-4xl">Software Engineer</span>.
               </h2>
-              <p className="text-base text-neutral-100 lg:text-lg dark:text-neutral-800">
+              <p className="text-base text-neutral-600 lg:text-lg dark:text-neutral-200">
                 My software engineering journey, which began in 2017, has provided me with a strong
                 understanding of software development lifecycle and principles. I&apos;ve actively
                 pursued opportunities to expand my skill set, including developing junior-level
@@ -87,7 +93,7 @@ export default function Hero() {
                           rel="noopener noreferrer"
                           className="cursor-newtab"
                         >
-                          <social.icon className="dark:text-primary-100/60 h-6 w-6" />
+                          <social.icon className="text-primary-200 dark:text-primary-100/60 h-6 w-6" />
                         </Link>
                       </TooltipTrigger>
                       <TooltipContent>{social.name}</TooltipContent>

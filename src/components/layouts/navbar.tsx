@@ -24,13 +24,13 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="fixed z-50 w-full border-b border-neutral-700 bg-neutral-900/80 backdrop-blur-md transition-all duration-300">
+    <nav className="fixed z-50 w-full border-b border-neutral-700 bg-neutral-900/95 backdrop-blur-xl transition-all duration-300 dark:bg-neutral-900/80 dark:backdrop-blur-md">
       <div className="mx-auto h-[4rem] max-w-7xl px-4 md:px-6">
         <div className="flex h-full items-center justify-between">
           <div className="flex items-center">
             <Link
               href="/"
-              className="hover:text-primary-200 dark:hover:text-primary-100 text-xl font-bold text-neutral-800 transition-colors md:text-2xl dark:text-white"
+              className="hover:text-primary-200 dark:hover:text-primary-100 text-xl font-bold text-white transition-colors md:text-2xl"
             >
               {env.APP_NAME}
             </Link>
@@ -41,7 +41,7 @@ export default function Navbar() {
               <a
                 key={index}
                 href={link.href}
-                className="hover:text-primary-200 dark:hover:text-primary-100 text-base font-semibold text-neutral-800 transition-colors dark:text-white"
+                className="hover:text-primary-200 dark:hover:text-primary-100 text-base font-semibold text-white transition-colors"
               >
                 {link.label}
               </a>
@@ -52,6 +52,7 @@ export default function Navbar() {
             <div className="flex items-center justify-center gap-2">
               <Button
                 variant="ghost"
+                className="text-white"
                 onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
               >
                 {theme === 'light' ? <Moon className="size-4" /> : <Sun className="size-4" />}
