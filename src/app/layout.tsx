@@ -9,8 +9,8 @@ const NunitoSans = Nunito_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Web Masb0ymas',
-  description: 'Web Masb0ymas',
+  title: 'masb0ymas',
+  description: 'masb0ymas',
 }
 
 export default function RootLayout({

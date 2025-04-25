@@ -14,9 +14,9 @@ type NavLinks = { label: string; href: string }
 
 const navbarLinks: NavLinks[] = [
   { href: '/', label: 'Home' },
-  { href: '#', label: 'About' },
-  { href: '#', label: 'Project' },
   { href: '#', label: 'Blog' },
+  { href: '#', label: 'Project' },
+  { href: '#', label: 'About' },
 ]
 
 export default function Navbar() {
