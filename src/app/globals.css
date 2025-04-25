@@ -209,3 +209,7 @@
 body {
   font-family: var(--font-nunito-sans);
 }
+
+.cursor-newtab {
+  cursor: url(/static/images/new-tab.png) 10 10, pointer;
+}
