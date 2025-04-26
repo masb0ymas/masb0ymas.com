@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import SeeMore from '~/components/custom/see-more'
 
 const projects = [
   {
@@ -43,6 +44,10 @@ export default function FeaturedProjects() {
               )}
             </div>
           ))}
+        </div>
+
+        <div className="mt-10 flex items-center justify-center">
+          <SeeMore label="See more projects" link="/project" />
         </div>
       </div>
     </section>
