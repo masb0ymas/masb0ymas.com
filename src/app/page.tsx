@@ -1,8 +1,9 @@
 import MainLayout from '~/components/layouts/main'
+import FeaturedPosts from './home/blog'
 import CTA from './home/cta'
 import GithubOS from './home/github-os'
 import Hero from './home/hero'
-import FeaturedBlog from './home/blog'
+import FeaturedProjects from './home/project'
 
 export default function Home() {
   return (
@@ -10,8 +11,11 @@ export default function Home() {
       {/* Hero Section */}
       <Hero />
 
-      {/* Featured Blog */}
-      <FeaturedBlog />
+      {/* Featured Post */}
+      <FeaturedPosts />
+
+      {/* Featured Project */}
+      <FeaturedProjects />
 
       {/* Github Section */}
       <GithubOS />
