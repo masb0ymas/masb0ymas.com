@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from 'next/link'
-import { Button } from '~/components/ui/button'
+import SeeMore from '~/components/custom/see-more'
 
 const reviews = [
   {
@@ -49,7 +48,7 @@ export default function GithubOS() {
   return (
     <section className="px-4 py-10 md:px-6 lg:py-20">
       <div className="mx-auto max-w-4xl">
-        <h2 className="mb-6 text-center text-2xl font-bold text-neutral-800 lg:mb-10 lg:text-4xl dark:text-white">
+        <h2 className="mb-6 text-center text-3xl font-bold text-neutral-800 lg:mb-10 lg:text-4xl dark:text-white">
           Github Open Source
         </h2>
       </div>
@@ -66,12 +65,8 @@ export default function GithubOS() {
           ))}
         </div>
 
-        <div className="flex items-center justify-center">
-          <Link href="https://github.com/masb0ymas" target="_blank" rel="noopener noreferrer">
-            <Button variant="outline" className="px-6 font-semibold">
-              See more
-            </Button>
-          </Link>
+        <div className="mt-8 flex items-center justify-center">
+          <SeeMore label="See more open source" link="https://github.com/masb0ymas" />
         </div>
       </div>
     </section>

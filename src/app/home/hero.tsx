@@ -51,7 +51,7 @@ export default function Hero() {
         <div className="grid h-full grid-cols-2 items-center gap-4 lg:gap-8">
           <div className="col-span-full lg:col-span-1">
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-neutral-800 lg:text-5xl dark:text-white">
+              <h2 className="text-3xl font-bold text-neutral-800 lg:text-5xl dark:text-white">
                 Hi, I&apos;m{' '}
                 <span className="dark:text-primary-100 text-primary-200">N. Fajri</span>, <br /> a{' '}
                 <span className="underline lg:text-4xl">Software Engineer</span>.

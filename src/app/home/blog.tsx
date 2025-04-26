@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import SeeMore from '~/components/custom/see-more'
 import { Badge } from '~/components/ui/badge'
-import { Button } from '~/components/ui/button'
 import { Separator } from '~/components/ui/separator'
 import { formatLocalDate } from '~/lib/date'
 
@@ -42,7 +41,7 @@ export default function FeaturedBlog() {
         <div className="grid grid-cols-3 gap-4">
           <div className="col-span-full lg:col-span-1">
             <div className="flex flex-col gap-4">
-              <h2 className="text-2xl font-bold text-neutral-800 lg:text-5xl dark:text-white">
+              <h2 className="text-3xl font-bold text-neutral-800 lg:text-5xl dark:text-white">
                 Featured <span className="text-primary-200 dark:text-primary-100">Blog</span>
               </h2>
               <p className="text-sm text-neutral-600 lg:text-lg dark:text-neutral-200">
@@ -62,11 +61,7 @@ export default function FeaturedBlog() {
         </div>
 
         <div className="mt-10 flex items-center justify-center">
-          <Link href="/blog">
-            <Button variant="outline" className="px-6 font-semibold">
-              See more
-            </Button>
-          </Link>
+          <SeeMore label="See more posts" link="/blog" />
         </div>
       </div>
     </section>
