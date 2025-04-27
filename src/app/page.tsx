@@ -1,4 +1,5 @@
 import MainLayout from '~/components/layouts/main'
+import Benefit from './home/benefit'
 import FeaturedPosts from './home/blog'
 import CTA from './home/cta'
 import GithubOS from './home/github-os'
@@ -10,6 +11,9 @@ export default function Home() {
     <MainLayout>
       {/* Hero Section */}
       <Hero />
+
+      {/* Benefit Section */}
+      <Benefit />
 
       {/* Featured Post */}
       <FeaturedPosts />
