@@ -46,14 +46,14 @@ const reviews = [
 
 export default function GithubOS() {
   return (
-    <section className="px-4 py-10 md:px-6 lg:py-20">
+    <section className="mx-auto max-w-7xl px-4 py-10 md:px-6 lg:py-20">
       <div className="mx-auto max-w-4xl">
         <h2 className="mb-6 text-center text-3xl font-bold text-neutral-800 lg:mb-10 lg:text-4xl dark:text-white">
           Github Open Source
         </h2>
       </div>
 
-      <div className="mx-auto flex max-w-7xl flex-col gap-4">
+      <div className="flex flex-col gap-4">
         <div className="grid grid-cols-3 gap-4">
           {reviews.map((review) => (
             <div
@@ -65,7 +65,7 @@ export default function GithubOS() {
           ))}
         </div>
 
-        <div className="mt-8 flex items-center justify-center">
+        <div className="mt-4 flex items-center justify-center">
           <SeeMore label="See more open source" link="https://github.com/masb0ymas" />
         </div>
       </div>
