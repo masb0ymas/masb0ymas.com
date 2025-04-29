@@ -58,9 +58,14 @@ export default function Navbar() {
                 {theme === 'light' ? <Moon className="size-4" /> : <Sun className="size-4" />}
               </Button>
 
-              <Button variant="secondary" className="px-6 font-semibold">
-                Contact
-              </Button>
+              <Link
+                href="https://s.id/contact-masb0ymas"
+                target='"_blank" rel="noopener noreferrer">'
+              >
+                <Button variant="secondary" className="px-6 font-semibold">
+                  Contact
+                </Button>
+              </Link>
             </div>
           </div>
 
@@ -127,7 +132,8 @@ function MobileNavbar({ open, onOpenChange }: MobileNavbarProps) {
         <motion.div
           className={cn(
             'mobile-menu flex origin-top flex-col gap-2 lg:hidden',
-            (isMobile || open) && 'bg-neutral-25 h-screen text-neutral-900'
+            (isMobile || open) &&
+              'h-screen bg-neutral-900/95 text-neutral-900 dark:bg-neutral-900/80'
           )}
           initial={{ opacity: 0, height: 0, scaleY: 0 }}
           animate={{ opacity: 1, height: '100vh', scaleY: 1 }}
@@ -213,7 +219,13 @@ function MobileNavbar({ open, onOpenChange }: MobileNavbarProps) {
                 ease: [0.25, 0.1, 0.25, 1],
               }}
             >
-              <Button className="w-full">Contact</Button>
+              <Link
+                href="https://s.id/contact-masb0ymas"
+                target='"_blank" rel="noopener noreferrer">'
+                className="w-full"
+              >
+                <Button className="w-full">Contact</Button>
+              </Link>
             </motion.li>
           </ul>
         </motion.div>
