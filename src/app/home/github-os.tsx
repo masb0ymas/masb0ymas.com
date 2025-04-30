@@ -9,9 +9,9 @@ export default function GithubOS() {
   const { theme } = useTheme()
 
   const lightTheme =
-    'title_color=252B37&text_color=252B37&border_color=fb923c&icon_color=fb923c&border_radius=10'
+    'title_color=535862&text_color=252B37&border_color=fb923c&icon_color=fb923c&border_radius=10'
   const darkTheme =
-    'bg_color=181D27&title_color=fb923c&text_color=FAFAFA&border_color=fb923c&icon_color=fb923c&border_radius=10'
+    'bg_color=181D27&title_color=fb923c&text_color=FAFAFA&border_color=535862&icon_color=fb923c&border_radius=10'
 
   const reviews = [
     {
