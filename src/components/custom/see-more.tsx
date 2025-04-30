@@ -9,8 +9,8 @@ type SeeMoreProps = {
 export default function SeeMore({ label, link }: SeeMoreProps) {
   return (
     <Link href={link} className="flex flex-row items-center gap-2 hover:underline">
-      <span className="text-neutral-400 dark:text-neutral-200">{label}</span>
-      <IconArrowRight className="h-6 w-6 text-neutral-400 dark:text-neutral-200" />
+      <span className="text-neutral-800 dark:text-neutral-200">{label}</span>
+      <IconArrowRight className="h-6 w-6 text-neutral-800 dark:text-neutral-200" />
     </Link>
   )
 }
