@@ -1,9 +1,11 @@
 import CardPost from '~/components/custom/card-post'
 import SeeMore from '~/components/custom/see-more'
 import { Separator } from '~/components/ui/separator'
-import { posts } from '~/data/posts.json'
+import postJson from '~/data/posts.json'
 
 export default function FeaturedPosts() {
+  const posts = postJson.posts
+
   return (
     <section className="mx-auto max-w-7xl px-4 py-10 md:px-6 lg:py-20">
       <div className="flex flex-col gap-2">
