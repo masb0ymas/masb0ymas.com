@@ -1,7 +1,9 @@
 import type { NextConfig } from 'next'
+import createMDX from '@next/mdx'
 
 const nextConfig: NextConfig = {
   /* config options here */
+  pageExtensions: ['md', 'mdx', 'ts', 'tsx'],
   images: {
     remotePatterns: [
       {
@@ -11,7 +13,12 @@ const nextConfig: NextConfig = {
     ],
     dangerouslyAllowSVG: true,
   },
+  experimental: {
+    mdxRs: true,
+  },
   output: 'standalone',
 }
 
-export default nextConfig
+const withMDX = createMDX({})
+
+export default withMDX(nextConfig)
