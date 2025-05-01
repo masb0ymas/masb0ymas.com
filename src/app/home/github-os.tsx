@@ -8,7 +8,6 @@ import SeeMore from '~/components/custom/see-more'
 export default function GithubOS() {
   const { theme } = useTheme()
 
-
   const lightTheme =
     'title_color=535862&text_color=252B37&border_color=fb923c&icon_color=fb923c&border_radius=10'
   const darkTheme =
