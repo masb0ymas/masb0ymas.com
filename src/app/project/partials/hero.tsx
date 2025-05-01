@@ -4,7 +4,7 @@ import { Separator } from '~/components/ui/separator'
 
 export default function Hero() {
   return (
-    <section className="px-4 py-10 md:px-6">
+    <section className="px-4 py-10 md:px-6 lg:pt-40">
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col items-center justify-center gap-2">
           <h2 className="text-3xl font-bold text-neutral-800 lg:text-5xl dark:text-white">Project</h2>

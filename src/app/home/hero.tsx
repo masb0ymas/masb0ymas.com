@@ -46,7 +46,7 @@ const socials = [
 
 export default function Hero() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-10 md:px-6 lg:pb-20">
+    <section className="mx-auto max-w-7xl px-4 py-10 md:px-6 lg:pt-40 lg:pb-20">
       <div className="grid h-full grid-cols-2 items-center gap-4 lg:gap-8">
         <div className="col-span-full lg:col-span-1">
           <div className="flex flex-col gap-4">

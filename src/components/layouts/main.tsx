@@ -8,7 +8,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
   return (
     <>
       <Navbar />
-      <main className="pt-20 lg:pt-40">{children}</main>
+      <main className="pt-20">{children}</main>
       <Footer />
     </>
   )
