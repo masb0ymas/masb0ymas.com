@@ -9,7 +9,7 @@ const NProgressProvider = memo(function NProgressProvider({ children }: Readonly
   return (
     <ProgressProvider
       height="4px"
-      color="#2f66fa"
+      color="#ea580c"
       options={{
         showSpinner: true,
         minimum: 0.3,
