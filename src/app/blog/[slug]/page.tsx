@@ -1,3 +1,5 @@
+import SyntaxHighlighting from './partials/SyntaxHighlighting'
+
 type IParams = {
   slug: string
 }
@@ -13,7 +15,9 @@ export default async function BlogDetailPage({ params }: IProps) {
   return (
     <section className="mx-auto max-w-5xl px-4 py-10 md:px-6 lg:pt-0 lg:pb-20">
       <article className="prose lg:prose-lg max-w-full">
-        <Post />
+        <SyntaxHighlighting>
+          <Post />
+        </SyntaxHighlighting>
       </article>
     </section>
   )

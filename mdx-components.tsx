@@ -34,8 +34,8 @@ const components = {
     <ul className="list-disc space-y-1 pl-5 text-neutral-600 dark:text-neutral-100" {...props} />
   ),
   li: (props: ListItemProps) => <li className="pl-1" {...props} />,
-  em: (props: EmProps) => <em className="font-medium" {...props} />,
-  strong: (props: StrongProps) => <strong className="font-medium" {...props} />,
+  em: (props: EmProps) => <em className="font-medium text-primary-200 dark:text-primary-100" {...props} />,
+  strong: (props: StrongProps) => <strong className="font-medium text-primary-200 dark:text-primary-100" {...props} />,
   a: ({ href, children, ...props }: AnchorProps) => {
     const className =
       'text-blue-500 hover:text-blue-700 dark:text-gray-400 hover:dark:text-gray-300 dark:underline dark:underline-offset-2 dark:decoration-gray-800'
