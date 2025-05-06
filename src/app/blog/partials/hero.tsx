@@ -1,7 +1,9 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 'use client'
 
+import { useDebounce } from '@uidotdev/usehooks'
 import Fuse from 'fuse.js'
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Input } from '~/components/ui/input'
 import { Separator } from '~/components/ui/separator'
 import { Post } from '~/types/post'
@@ -10,45 +12,24 @@ import { usePostContext } from './context'
 export default function Hero() {
   const { posts, updatePosts, resetPosts } = usePostContext()
   const [post, setPost] = useState('')
+  const debouncedSearch = useDebounce(post, 300)
 
   // Memoize the fuseOptions to prevent recreation on each render
-  const fuseOptions = useMemo(
-    () => ({
-      keys: ['title', 'description', 'tags'],
-    }),
-    []
-  )
+  const fuseOptions = useMemo(() => ({ keys: ['title', 'description', 'tags'] }), [])
 
-  // Memoize the Fuse instance to prevent recreation on each render
-  // Only recreate when posts change (which happens when context updates)
-  const fuse = useMemo(() => new Fuse(posts, fuseOptions), [posts, fuseOptions])
-
-  // Memoize the search function with minimal dependencies
-  const searchPosts = useCallback(() => {
-    if (post.trim() === '') {
+  useEffect(() => {
+    if (debouncedSearch.trim() === '') {
       resetPosts()
       return
     }
 
-    const searchResults = fuse.search(post)
+    if (debouncedSearch) {
+      const searchResult = new Fuse(posts, fuseOptions).search(debouncedSearch)
 
-    // Extract the item objects from the Fuse results
-    const filteredPosts: Post[] = searchResults.map((result) => result.item)
-
-    // Update the posts in context
-    updatePosts(filteredPosts)
-  }, [post, fuse, resetPosts, updatePosts])
-
-  // Effect to trigger search when dependencies change
-  useEffect(() => {
-    // Add a small delay to avoid searching on every keystroke
-    const timer = setTimeout(() => {
-      searchPosts()
-    }, 1000)
-
-    // Cleanup the timer on dependency changes
-    return () => clearTimeout(timer)
-  }, [searchPosts])
+      const filteredPosts: Post[] = searchResult.map((result) => result.item)
+      updatePosts(filteredPosts)
+    }
+  }, [debouncedSearch])
 
   return (
     <section className="px-4 py-10 md:px-6 lg:pt-40">
@@ -64,7 +45,6 @@ export default function Hero() {
           <Input
             type="text"
             placeholder="Search posts..."
-            value={post}
             onChange={(e) => setPost(e.target.value)}
           />
         </div>
