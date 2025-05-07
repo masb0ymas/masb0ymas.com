@@ -1,18 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { formatLocalDate } from '~/lib/date'
+import { Post } from '~/types/post'
 import { Badge } from '../ui/badge'
 
-type IProps = {
-  thumbnail: string
-  title: string
-  description: string
-  slug: string
-  date: string
-  tags: string[]
-}
-
-export default function CardPost({ thumbnail, title, description, slug, date, tags }: IProps) {
+export default function CardPost({ thumbnail, title, description, slug, date, tags }: Post) {
   return (
     <div className="grid grid-cols-8 items-center gap-4">
       <Link href={slug} className="col-span-full flex lg:col-span-2 lg:hidden">
