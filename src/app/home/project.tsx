@@ -1,26 +1,10 @@
 import { CardProjectLeft, CardProjectRight } from '~/components/custom/card-project'
 import SeeMore from '~/components/custom/see-more'
-
-const projects = [
-  {
-    title: 'Moneyflow ID',
-    description: 'Description 1',
-    thumbnail: '/static/project/moneyflow-id.webp',
-    date: '2024-11-04',
-    tags: ['Docker', 'CI/CD', 'GitHub Actions'],
-    slug: '/project/moneyflow-id',
-  },
-  {
-    title: 'DeFi Calculator',
-    description: 'Description 1',
-    thumbnail: '/static/project/defi-calculator.webp',
-    date: '2024-11-04',
-    tags: ['Docker', 'CI/CD', 'GitHub Actions'],
-    slug: '/project/defi-calculator',
-  },
-]
+import projectJson from '~/data/projects.json'
 
 export default function FeaturedProjects() {
+  const projects = projectJson.projects.slice(0, 4)
+
   return (
     <section className="mx-auto max-w-7xl px-4 py-10 md:px-6 lg:py-20">
       <div className="flex flex-col gap-2">
