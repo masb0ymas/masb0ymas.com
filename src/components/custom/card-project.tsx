@@ -18,7 +18,7 @@ export function CardProjectLeft({ thumbnail, title, description, slug, tags }: P
       </Link>
 
       <div className="col-span-full flex flex-col gap-2 lg:col-span-6">
-        <Link href={slug}>
+        <Link href={slug} className="space-y-2">
           <h3 className="text-xl font-bold text-neutral-800 dark:text-white">{title}</h3>
           <p className="text-base text-neutral-600 dark:text-neutral-400">{description}</p>
         </Link>
@@ -54,7 +54,7 @@ export function CardProjectRight({ thumbnail, title, description, slug, tags }: 
       </Link>
 
       <div className="col-span-full flex flex-col gap-2 lg:col-span-6">
-        <Link href={slug}>
+        <Link href={slug} className="space-y-2">
           <h3 className="text-xl font-bold text-neutral-800 dark:text-white">{title}</h3>
           <p className="text-base text-neutral-600 dark:text-neutral-400">{description}</p>
         </Link>

@@ -1,5 +1,7 @@
+import React from 'react'
 import { CardProjectLeft, CardProjectRight } from '~/components/custom/card-project'
 import SeeMore from '~/components/custom/see-more'
+import { Separator } from '~/components/ui/separator'
 import projectJson from '~/data/projects.json'
 
 export default function FeaturedProjects() {
@@ -18,9 +20,17 @@ export default function FeaturedProjects() {
 
       <div className="mt-10 flex flex-col gap-4">
         {projects.map((project, index) => (
-          <div className="grid grid-cols-8 gap-4 lg:gap-6" key={project.title}>
-            {index % 2 === 0 ? <CardProjectLeft {...project} /> : <CardProjectRight {...project} />}
-          </div>
+          <React.Fragment key={project.title}>
+            <div className="grid grid-cols-8 items-center gap-4 lg:gap-6">
+              {index % 2 === 0 ? (
+                <CardProjectLeft {...project} />
+              ) : (
+                <CardProjectRight {...project} />
+              )}
+            </div>
+
+            {index !== projects.length - 1 && <Separator className="mt-4" />}
+          </React.Fragment>
         ))}
       </div>
 
