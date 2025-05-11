@@ -47,6 +47,37 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link
+          rel="shortcut icon"
+          sizes="16x16 24x24 32x32 48x48 64x64"
+          href="/static/favicon/favicon.ico"
+        />
+
+        {/* Mobile (Android, iOS & others) */}
+        <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-touch-icon.png" />
+        <link
+          rel="apple-touch-icon-precomposed"
+          sizes="57x57"
+          href="/static/favicon/apple-touch-icon.png"
+        />
+        <link rel="apple-touch-icon" sizes="72x72" href="/static/favicon/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/static/favicon/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/static/favicon/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/static/favicon/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/static/favicon/apple-touch-icon.png" />
+
+        <meta name="theme-color" content="#ea580c" />
+
+        {/* Windows 8 Tiles */}
+        <meta name="application-name" content="masb0ymas" />
+        <meta name="msapplication-TileImage" content="/static/favicon/apple-touch-icon.png" />
+        <meta name="msapplication-TileColor" content="#ea580c" />
+
+        {/* iOS Settings */}
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      </head>
       <body className={`${NunitoSans.variable} antialiased`}>
         <DecoratorProvider>{children}</DecoratorProvider>
       </body>
