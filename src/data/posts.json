@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "title": "How to Use GitHub Actions for CI/CD and Push to Google Artifact Registry",
+      "description": "A guide to setting up a CI/CD workflow using GitHub Actions to automate the build and deployment process and push artifacts to Google Artifact Registry.",
+      "slug": "/blog/how-to-use-github-action-for-ci-cd-and-push-to-google-artifact-registry",
+      "thumbnail": "/static/blog/ci-cd-github-actions-gcp/github_action_build_success.webp",
+      "date": "2024-11-04",
+      "tags": ["Docker", "CI/CD", "GitHub Actions", "Google Artifact Registry"]
+    },
+    {
+      "title": "How to Install React Native on Different Platforms?",
+      "description": "How to Install React Native on Different Platforms? This guide provides a step-by-step tutorial on installing React Native across various platforms, including Windows, macOS, and Linux.",
+      "slug": "/blog/how-to-install-react-native-on-different-platforms",
+      "thumbnail": "/static/blog/react-native/android-sdk-api.webp",
+      "date": "2024-09-02",
+      "tags": ["React Native", "CLI"]
+    },
+    {
+      "title": "How to Use Environment Variables in Sveltekit",
+      "description": "This blog post provides a comprehensive guide on using environment variables in SvelteKit to manage configurations and sensitive data securely.",
+      "slug": "/blog/how-to-use-environment-variables-in-sveltekit",
+      "thumbnail": "/static/blog/sveltekit/svelte.webp",
+      "date": "2024-08-31",
+      "tags": ["SvelteKit", "Environment Variables"]
+    },
+    {
+      "title": "How to dump and restore a PostgreSQL from a Docker Container",
+      "description": "Learn how to efficiently dump and restore PostgreSQL databases from Docker containers in this quick guide. We’ll provide clear, step-by-step instructions for backing up your data with the pg_dump command and restoring it using psql. Whether for backup purposes or database migration, this guide ensures you can manage PostgreSQL in a Docker environment with ease and confidence.",
+      "slug": "/blog/how-to-dump-and-restore-a-postgres-database-from-a-docker-container",
+      "thumbnail": "/static/blog/docker-postgresql/postgresql_logo.webp",
+      "date": "2024-08-23",
+      "tags": ["postgresql", "docker"]
+    },
+    {
+      "title": "How do you implement an NFT Smart Contract with Remix and publish it on OpenSea?",
+      "description": "In this comprehensive guide, we’ll walk you through the step-by-step process of creating and deploying an NFT smart contract using Remix, a powerful Ethereum IDE. Whether you're new to blockchain development or looking to refine your skills, this tutorial covers everything from setting up your development environment to writing and testing your smart contract code.",
+      "slug": "/blog/how-do-you-implement-an-nft-smart-contract-with-remix-and-publish-it-on-open-sea",
+      "thumbnail": "/static/blog/nft-remix/web-remix-eth.webp",
+      "date": "2024-08-10",
+      "tags": ["web3", "solidity", "NFT", "remix"]
+    },
+    {
+      "title": "Creating a Simple NFT Smart Contract with Solidity and Hardhat",
+      "description": "This tutorial provides a clear and concise introduction to creating a simple NFT smart contract using Solidity and Hardhat. You’ll learn how to set up Hardhat, a powerful Ethereum development environment, and write a basic NFT contract in Solidity, the programming language for Ethereum. We’ll guide you through each step, from project setup to contract deployment on a test network.",
+      "slug": "/blog/creating-a-simple-nft-smart-contract-with-solidity-and-hardhat",
+      "thumbnail": "/static/blog/nft-remix/web-remix-eth.webp",
+      "date": "2024-08-04",
+      "tags": ["web3", "solidity", "NFT"]
+    },
+    {
+      "title": "How to Use Traefik Proxy with Docker Compose?",
+      "description": "In this tutorial, you’ll learn how to integrate Traefik, a dynamic reverse proxy, with Docker Compose to manage and route traffic to your containerized applications. We’ll guide you through the setup process, including configuring Traefik to automatically discover and route traffic to your services, setting up secure HTTPS connections, and handling multiple services with ease.",
+      "slug": "/blog/how-to-use-traefik-proxy-with-docker-compose",
+      "thumbnail": "/static/blog/traefik-docker-compose/traefik-architecture.webp",
+      "date": "2024-07-21",
+      "tags": ["docker", "traefik"]
+    },
+    {
+      "title": "Why I Use Semantic Versioning?",
+      "description": "Semantic versioning is more than just a versioning strategy—it's a powerful tool for maintaining clear and consistent communication within your development team and with your users. In this blog post, I’ll explain why I rely on semantic versioning to manage software releases, and how it helps in tracking changes, ensuring compatibility, and preventing unexpected breaking changes.",
+      "slug": "/blog/why-i-use-semantic-versioning",
+      "thumbnail": "/static/blog/semantic-version/semver.webp",
+      "date": "2024-07-20",
+      "tags": ["semver"]
+    },
+    {
+      "title": "How to release a version of a web app using GitHub Workflow with GitHub Actions",
+      "description": "Releasing a new version of your web app can be streamlined and automated using GitHub Workflow and GitHub Actions. In this step-by-step guide, you’ll learn how to set up a CI/CD pipeline that automates the release process, from code integration to deployment. We’ll cover how to create a workflow file, configure GitHub Actions to build and test your app, and automate versioning and deployment to your chosen environment.",
+      "slug": "/blog/how-to-release-a-version-of-a-web-app-using-github-workflow-with-github-actions",
+      "thumbnail": "/static/blog/github-actions/github-tags.webp",
+      "date": "2024-07-14",
+      "tags": ["github-actions", "docker"]
+    }
+  ]
+}
