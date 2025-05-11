@@ -12,7 +12,7 @@ type IProps = {
 
 export async function generateMetadata({ params }: IProps): Promise<Metadata> {
   const { slug } = await params
-  const post = postsJson.posts.find((post) => post.slug === slug)
+  const post = postsJson.posts.find((post) => post.slug === `/blog/${slug}`)
   const tags = post?.tags || []
 
   return {
