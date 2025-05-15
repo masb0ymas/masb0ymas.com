@@ -99,6 +99,11 @@ export default function Hero() {
                 </TooltipProvider>
               ))}
             </div>
+
+            {/* <div className="flex items-center justify-center gap-2 mt-2">
+              <DotPulse />
+              <span className="text-primary-200 dark:text-primary-100/60 font-bold">Available</span>
+            </div> */}
           </div>
         </div>
       </div>
@@ -112,7 +117,7 @@ interface CardProps {
 
 const AvatarCard = ({ children }: CardProps) => {
   return (
-    <div className="py-10 lg:py-14">
+    <div className="py-10">
       <div className="relative w-full">
         <div className="absolute inset-0 mx-auto w-full scale-x-95 -rotate-[5deg] rounded-lg bg-gray-200 py-10 md:w-1/2 dark:bg-zinc-800" />
         {children}

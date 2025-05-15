@@ -3,7 +3,7 @@
     {
       "title": "Web Programming Hack",
       "description": "Web Programming Hack is a bootcamp for web programming. And also you have opportunity about working aboard. Our intensive training program equips participants with essential coding skills, modern frameworks, and best practices for full-stack development. Join our community of aspiring developers and unlock global career opportunities in the tech industry.",
-      "slug": "/projects/web-programming-hack",
+      "slug": "/project/web-programming-hack",
       "thumbnail": "/static/project/wph.webp",
       "url": "https://wph.masb0ymas.com",
       "date": "2025-02-30",
@@ -12,7 +12,7 @@
     {
       "title": "Seadev",
       "description": "Cost Effective Engineering Talent to Help Your Startup Thrive. Our team of skilled developers and engineers provides affordable technical solutions tailored to emerging businesses. We focus on delivering high-quality work while keeping costs manageable, enabling startups to build robust products without breaking the budget. Partner with us to accelerate your growth journey.",
-      "slug": "/projects/seadev",
+      "slug": "/project/seadev",
       "thumbnail": "/static/project/seadev.webp",
       "url": "https://seadev.com.au",
       "date": "2025-01-15",
@@ -21,7 +21,7 @@
     {
       "title": "Arif Analytics",
       "description": "Data Analysis platform utilize AI to analyze your data. And also you can chat with your result to gain deeper insights, explore patterns, and extract actionable intelligence from complex datasets. Our advanced algorithms provide comprehensive visualization and interpretation of your data in real-time.",
-      "slug": "/projects/arif-analytics",
+      "slug": "/project/arif-analytics",
       "thumbnail": "/static/project/goarif.webp",
       "url": "https://goarif.co",
       "date": "2025-01-01",
@@ -30,7 +30,7 @@
     {
       "title": "Boatwork",
       "description": "Professional boat and yacht services specializing in comprehensive repairs, state-of-the-art audio system enhancements, custom modifications, and routine maintenance. Our expert technicians deliver exceptional quality workmanship for all marine vessels, ensuring optimal performance, safety, and enjoyment on the water with attention to detail and personalized service.",
-      "slug": "/projects/boatwork",
+      "slug": "/project/boatwork",
       "thumbnail": "/static/project/boatwork.webp",
       "url": "https://boatwork.co",
       "date": "2024-12-01",
@@ -39,7 +39,7 @@
     {
       "title": "Moneyflow ID",
       "description": "Moneyflow ID is a comprehensive web application designed to help you take control of your financial life by tracking and managing your cashflow effectively. The platform offers intuitive tools for monitoring income sources, categorizing expenses, creating personalized budgets, generating financial reports, and setting savings goals to improve your overall financial health and decision-making.",
-      "slug": "/projects/moneyflow-id",
+      "slug": "/project/moneyflow-id",
       "thumbnail": "/static/project/moneyflow-id.webp",
       "url": "https://moneyflow.id",
       "date": "2024-07-07",
@@ -48,7 +48,7 @@
     {
       "title": "DeFi Calculator",
       "description": "DeFi Calculator is a comprehensive web application designed to simplify complex decentralized finance calculations in the Web3 ecosystem. Our tool helps users analyze yield farming opportunities, liquidity pool returns, impermanent loss risks, and token swap values across multiple blockchain networks, enabling informed investment decisions with real-time data integration and customizable parameters for both novice and experienced DeFi participants.",
-      "slug": "/projects/defi-calculator",
+      "slug": "/project/defi-calculator",
       "thumbnail": "/static/project/defi-calculator.webp",
       "url": "https://defi-calculator.masb0ymas.com",
       "date": "2024-07-07",
@@ -57,7 +57,7 @@
     {
       "title": "Kickstarter",
       "description": "Kickstarter on web3 revolutionizes project fundraising by leveraging blockchain technology for transparent, secure, and decentralized crowdfunding. Create campaigns with smart contracts that automatically execute when funding goals are met, eliminating intermediaries and reducing fees while providing immutable records of all transactions and supporter contributions.",
-      "slug": "/projects/kickstarter",
+      "slug": "/project/kickstarter",
       "thumbnail": "/static/project/kickstarter.webp",
       "url": "https://kickstarter.masb0ymas.com",
       "date": "2024-07-07",
