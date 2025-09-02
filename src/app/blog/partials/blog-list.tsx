@@ -1,6 +1,6 @@
 'use client'
 
-import CardPost from '~/components/custom/card-post'
+import CardPost from '~/components/common/card-post'
 import { Separator } from '~/components/ui/separator'
 import { usePostContext } from './context'
 

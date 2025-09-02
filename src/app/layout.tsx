@@ -9,10 +9,8 @@ const NunitoSans = Nunito_Sans({
   subsets: ['latin'],
 })
 
-const metaTitle =
-  'masb0ymas - all about me and my journey including, personal, blog, projects, and more'
-const metaDescription =
-  'Explore my blog for in-depth articles, tutorials, and insights on technology, web development, AI, and Web3. Learn from my experiences as I share practical knowledge and solutions from my development journey.'
+const metaTitle = `masb0ymas - all about me and my journey including, personal, blog, projects, and more`
+const metaDescription = `Explore my blog for in-depth articles, tutorials, and insights on technology, web development, AI, and Web3. Learn from my experiences as I share practical knowledge and solutions from my development journey.`
 const metaImage = '/static/images/thumbnail.png'
 const metaURL = 'https://masb0ymas.com'
 const siteName = 'masb0ymas'
@@ -68,6 +66,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="152x152" href="/static/favicon/apple-touch-icon.png" />
 
         <meta name="theme-color" content="#ea580c" />
+        <link rel="canonical" href={metaURL} />
 
         {/* Windows 8 Tiles */}
         <meta name="application-name" content="masb0ymas" />
