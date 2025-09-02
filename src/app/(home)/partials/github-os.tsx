@@ -3,7 +3,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
-import SeeMore from '~/components/custom/see-more'
+import SectionTitle from '~/components/common/section-title'
+import SeeMore from '~/components/common/see-more'
 
 export default function GithubOS() {
   const { theme } = useTheme()
@@ -54,14 +55,11 @@ export default function GithubOS() {
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-10 md:px-6 lg:py-20">
-      <div className="flex flex-col gap-2">
-        <h2 className="text-3xl font-bold text-neutral-800 lg:text-5xl dark:text-white">
-          Github <span className="dark:text-primary-100 text-primary-200">Open Source</span>
-        </h2>
-        <p className="text-sm text-neutral-600 lg:text-lg dark:text-neutral-200">
-          Some open source I&apos;ve created
-        </p>
-      </div>
+      <SectionTitle
+        title="Github"
+        subtitle="Open Source"
+        description="Some open source I've created"
+      />
 
       <div className="mt-10 flex flex-col gap-4">
         <div className="grid grid-cols-3 gap-4">

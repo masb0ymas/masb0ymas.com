@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import SyntaxHighlighting from '~/components/custom/syntax-highlighting'
+import SyntaxHighlighting from '~/components/common/syntax-highlighting'
 import postsJson from '~/data/posts.json'
 
 type IParams = {

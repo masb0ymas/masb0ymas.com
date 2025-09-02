@@ -1,6 +1,15 @@
 {
   "projects": [
     {
+      "title": "KodingUp",
+      "description": "KodingUp is a bootcamp for web programming. And also you have opportunity about working aboard. Our intensive training program equips participants with essential coding skills, modern frameworks, and best practices for full-stack development. Join our community of aspiring developers and unlock global career opportunities in the tech industry.",
+      "slug": "/project/kodingup",
+      "thumbnail": "/static/project/kodingup.webp",
+      "url": "https://kodingup.com",
+      "date": "2025-02-30",
+      "tags": ["KodingUp", "Bootcamp", "Web Programming"]
+    },
+    {
       "title": "Web Programming Hack",
       "description": "Web Programming Hack is a bootcamp for web programming. And also you have opportunity about working aboard. Our intensive training program equips participants with essential coding skills, modern frameworks, and best practices for full-stack development. Join our community of aspiring developers and unlock global career opportunities in the tech industry.",
       "slug": "/project/web-programming-hack",
@@ -19,15 +28,6 @@
       "tags": ["Seadev", "Engineering", "Talent", "Startup"]
     },
     {
-      "title": "Arif Analytics",
-      "description": "Data Analysis platform utilize AI to analyze your data. And also you can chat with your result to gain deeper insights, explore patterns, and extract actionable intelligence from complex datasets. Our advanced algorithms provide comprehensive visualization and interpretation of your data in real-time.",
-      "slug": "/project/arif-analytics",
-      "thumbnail": "/static/project/goarif.webp",
-      "url": "https://goarif.co",
-      "date": "2025-01-01",
-      "tags": ["Arif Analytics", "Data Analysis", "AI"]
-    },
-    {
       "title": "Boatwork",
       "description": "Professional boat and yacht services specializing in comprehensive repairs, state-of-the-art audio system enhancements, custom modifications, and routine maintenance. Our expert technicians deliver exceptional quality workmanship for all marine vessels, ensuring optimal performance, safety, and enjoyment on the water with attention to detail and personalized service.",
       "slug": "/project/boatwork",
@@ -36,6 +36,15 @@
       "date": "2024-12-01",
       "tags": ["Boatwork", "Yacht", "Boat", "Audio"]
     },
+    {
+      "title": "Arif Analytics",
+      "description": "Data Analysis platform utilize AI to analyze your data. And also you can chat with your result to gain deeper insights, explore patterns, and extract actionable intelligence from complex datasets. Our advanced algorithms provide comprehensive visualization and interpretation of your data in real-time.",
+      "slug": "/project/arif-analytics",
+      "thumbnail": "/static/project/goarif.webp",
+      "url": "https://goarif.co",
+      "date": "2025-01-01",
+      "tags": ["Arif Analytics", "Data Analysis", "AI"]
+    }, 
     {
       "title": "Moneyflow ID",
       "description": "Moneyflow ID is a comprehensive web application designed to help you take control of your financial life by tracking and managing your cashflow effectively. The platform offers intuitive tools for monitoring income sources, categorizing expenses, creating personalized budgets, generating financial reports, and setting savings goals to improve your overall financial health and decision-making.",

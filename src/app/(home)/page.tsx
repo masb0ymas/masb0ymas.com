@@ -1,10 +1,10 @@
 import MainLayout from '~/components/layouts/main'
-import Benefit from './home/benefit'
-import FeaturedPosts from './home/blog'
-import CTA from './home/cta'
-import GithubOS from './home/github-os'
-import Hero from './home/hero'
-import FeaturedProjects from './home/project'
+import Benefit from './partials/benefit'
+import FeaturedPosts from './partials/blog'
+import CTA from './partials/cta'
+import GithubOS from './partials/github-os'
+import Hero from './partials/hero'
+import FeaturedProjects from './partials/project'
 
 export default function Home() {
   return (
