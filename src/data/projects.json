@@ -7,7 +7,11 @@
       "thumbnail": "/static/project/kodingup.webp",
       "url": "https://kodingup.com",
       "date": "2025-02-30",
-      "tags": ["KodingUp", "Bootcamp", "Web Programming"]
+      "tags": [
+        "KodingUp",
+        "Bootcamp",
+        "Web Programming"
+      ]
     },
     {
       "title": "Web Programming Hack",
@@ -16,7 +20,11 @@
       "thumbnail": "/static/project/wph.webp",
       "url": "https://wph.masb0ymas.com",
       "date": "2025-02-30",
-      "tags": ["Web Programming Hack", "Bootcamp", "Web Programming"]
+      "tags": [
+        "Web Programming Hack",
+        "Bootcamp",
+        "Web Programming"
+      ]
     },
     {
       "title": "Seadev",
@@ -25,7 +33,12 @@
       "thumbnail": "/static/project/seadev.webp",
       "url": "https://seadev.com.au",
       "date": "2025-01-15",
-      "tags": ["Seadev", "Engineering", "Talent", "Startup"]
+      "tags": [
+        "Seadev",
+        "Engineering",
+        "Talent",
+        "Startup"
+      ]
     },
     {
       "title": "Boatwork",
@@ -34,7 +47,26 @@
       "thumbnail": "/static/project/boatwork.webp",
       "url": "https://boatwork.co",
       "date": "2024-12-01",
-      "tags": ["Boatwork", "Yacht", "Boat", "Audio"]
+      "tags": [
+        "Boatwork",
+        "Yacht",
+        "Boat",
+        "Audio"
+      ]
+    },
+    {
+      "title": "Moneyflow ID",
+      "description": "Moneyflow ID is a comprehensive web application designed to help you take control of your financial life by tracking and managing your cashflow effectively. The platform offers intuitive tools for monitoring income sources, categorizing expenses, creating personalized budgets, generating financial reports, and setting savings goals to improve your overall financial health and decision-making.",
+      "slug": "/project/moneyflow-id",
+      "thumbnail": "/static/project/moneyflow-id.webp",
+      "url": "https://moneyflow.id",
+      "date": "2024-07-07",
+      "tags": [
+        "Cashflow",
+        "Income",
+        "Expense",
+        "Budgeting"
+      ]
     },
     {
       "title": "Arif Analytics",
@@ -43,16 +75,11 @@
       "thumbnail": "/static/project/goarif.webp",
       "url": "https://goarif.co",
       "date": "2025-01-01",
-      "tags": ["Arif Analytics", "Data Analysis", "AI"]
-    }, 
-    {
-      "title": "Moneyflow ID",
-      "description": "Moneyflow ID is a comprehensive web application designed to help you take control of your financial life by tracking and managing your cashflow effectively. The platform offers intuitive tools for monitoring income sources, categorizing expenses, creating personalized budgets, generating financial reports, and setting savings goals to improve your overall financial health and decision-making.",
-      "slug": "/project/moneyflow-id",
-      "thumbnail": "/static/project/moneyflow-id.webp",
-      "url": "https://moneyflow.id",
-      "date": "2024-07-07",
-      "tags": ["Cashflow", "Income", "Expense", "Budgeting"]
+      "tags": [
+        "Arif Analytics",
+        "Data Analysis",
+        "AI"
+      ]
     },
     {
       "title": "DeFi Calculator",
@@ -61,7 +88,11 @@
       "thumbnail": "/static/project/defi-calculator.webp",
       "url": "https://defi-calculator.masb0ymas.com",
       "date": "2024-07-07",
-      "tags": ["DeFi", "Web3", "Calculator"]
+      "tags": [
+        "DeFi",
+        "Web3",
+        "Calculator"
+      ]
     },
     {
       "title": "Kickstarter",
@@ -70,7 +101,11 @@
       "thumbnail": "/static/project/kickstarter.webp",
       "url": "https://kickstarter.masb0ymas.com",
       "date": "2024-07-07",
-      "tags": ["Kickstarter", "Web3", "Funding"]
+      "tags": [
+        "Kickstarter",
+        "Web3",
+        "Funding"
+      ]
     }
   ]
 }
