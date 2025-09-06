@@ -1,5 +1,6 @@
 import { PropsWithChildren } from 'react'
 import { Toaster } from '~/components/ui/sonner'
+import { TooltipProvider } from '~/components/ui/tooltip'
 import { ThemeProvider } from './next-themes'
 import NProgressProvider from './nprogress'
 
@@ -10,7 +11,7 @@ export default function DecoratorProvider({ children }: DecoratorProviderProps) 
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
       <NProgressProvider>
         <Toaster />
-        {children}
+        <TooltipProvider>{children}</TooltipProvider>
       </NProgressProvider>
     </ThemeProvider>
   )
