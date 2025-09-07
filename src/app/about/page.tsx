@@ -1,34 +1,18 @@
-import React from 'react'
-import Profile from '~/components/common/profile'
+import Education from './partials/education'
+import Experience from './partials/experience'
+import Hero from './partials/hero'
 
 export default function AboutPage() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-10 md:px-6 lg:py-20">
-      <div className="grid h-full grid-cols-1 items-center gap-4 lg:gap-8">
-        <div className="col-span-full h-full">
-          <Profile available={false} />
-        </div>
+    <>
+      {/* Hero Section */}
+      <Hero />
 
-        <div className="col-span-full">
-          <div className="flex flex-col gap-4">
-            <h2 className="text-3xl font-bold text-neutral-800 lg:text-5xl dark:text-white">
-              Hi, I&apos;m <span className="dark:text-primary-100 text-primary-200">N. Fajri</span>,{' '}
-              <br /> a <span className="underline lg:text-4xl">Software Engineer</span>.
-            </h2>
-            <p className="text-base text-neutral-600 lg:text-lg dark:text-neutral-200">
-              My software engineering journey, which began in 2017, has provided me with a strong
-              understanding of software development lifecycle and principles. I&apos;ve actively
-              pursued opportunities to expand my skill set, including developing junior-level
-              expertise in web3.
-              <br />
-              <br />I excel at tackling complex problems, fostering collaborative team dynamics, and
-              navigating project challenges with a solution-oriented mindset. My capacity to quickly
-              adapt to new technologies and manage stressful situations has consistently proven
-              valuable.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+      {/* Experience Section */}
+      <Experience />
+
+      {/* Education Section */}
+      <Education />
+    </>
   )
 }

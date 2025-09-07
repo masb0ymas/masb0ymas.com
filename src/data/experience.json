@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "company": "Boatwork",
+      "position": "Frontend Engineer",
+      "location": "Florida, United States - Remote",
+      "duration": "Nov 2024 - Present",
+      "employee_type": "Part-time",
+      "team": "2 Members",
+      "project": "1 Delivered",
+      "description": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat!</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    },
+    {
+      "company": "Moneyflow ID",
+      "position": "Software Engineer",
+      "location": "Semarang, Indonesia",
+      "duration": "Jun 2023 - Present",
+      "employee_type": "Self-employed",
+      "team": "1 Member",
+      "project": "1 Delivered",
+      "description": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat!</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    },
+    {
+      "company": "Arif Analytics",
+      "position": "Software Engineer",
+      "location": "Australia - Remote",
+      "duration": "Jan 2025 - Aug 2025",
+      "employee_type": "Part-time",
+      "team": "7+ Members",
+      "project": "1 Delivered",
+      "description": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat!</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    },
+    {
+      "company": "Amori Inc",
+      "position": "Mobile Developer",
+      "location": "United States - Remote",
+      "duration": "Apr 2025 - Jul 2025",
+      "employee_type": "Contract",
+      "team": "4+ Members",
+      "project": "1 Delivered",
+      "description": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat!</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    },
+    {
+      "company": "PT. Visi Nusapati Utama",
+      "position": "Software Engineer",
+      "location": "Jakarta Pusat, DKI Jakarta - Onsite",
+      "duration": "Apr 2021 - Nov 2023",
+      "employee_type": "Full-time",
+      "team": "4+ Members",
+      "project": "2+ Delivered",
+      "description": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat!</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    },
+    {
+      "company": "PT. Nusantara Teknologi - Nusantech",
+      "position": "Fullstack Developer",
+      "location": "Jakarta Barat, DKI Jakarta - Onsite",
+      "duration": "Jun 2019 - Apr 2021",
+      "employee_type": "Full-time",
+      "team": "10+ Members",
+      "project": "3+ Delivered",
+      "description": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit dicta alias debitis perferendis eius beatae dolore ea vitae accusamus, dignissimos distinctio minima porro, officiis quidem blanditiis asperiores. Cumque, placeat!</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    }
+  ]
+}
