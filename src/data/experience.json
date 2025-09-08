@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "company": "Boatwork",
+      "position": "Frontend Engineer",
+      "location": "Florida, United States - Remote",
+      "duration": "Nov 2024 - Present",
+      "employee_type": "Part-time",
+      "team": "2 Members",
+      "project": "1 Delivered",
+      "description": "<p>Boatwork is a platform that connects customers with contractors specializing in boats, yachts, and ships. Through the platform, you can maintain, modify, and clean your vessel.</p>",
+      "highlights": [
+        "Improved the Web UI and added more pages about Boatwork.",
+        "Maintained the codebase and fixed minor bugs."
+      ]
+    },
+    {
+      "company": "Moneyflow ID",
+      "position": "Software Engineer",
+      "location": "Semarang, Indonesia",
+      "duration": "Jun 2023 - Present",
+      "employee_type": "Self-employed",
+      "team": "1 Member",
+      "project": "1 Delivered",
+      "description": "<p>Moneyflow is a comprehensive cash flow management platform designed to empower individuals and small to medium-sized enterprises (SMEs) to effectively manage their finances. The application provides real-time tracking of income and expenses, facilitating informed financial decision-making.</p>",
+      "highlights": [
+        "Built a tracking system for income and expenses. Developed a budgeting system for users to set and track their financial goals.",
+        "Developed the backend using Golang with PostgreSQL database. Developed the frontend using Next.js server actions to improve data fetching before the client is ready."
+      ]
+    },
+    {
+      "company": "Arif Analytics",
+      "position": "Software Engineer",
+      "location": "Australia - Remote",
+      "duration": "Jan 2025 - Aug 2025",
+      "employee_type": "Part-time",
+      "team": "7+ Members",
+      "project": "1 Delivered",
+      "description": "<p>Arif is an AI-powered analytics platform designed to streamline and enhance data analysis. Leveraging advanced artificial intelligence, Arif automates the extraction of key insights, summaries, and feature identification from diverse data sets. Users can engage with the platform through natural language queries, enabling them to ask specific questions and receive precise answers regarding the analysis results.</p>",
+      "highlights": [
+        "Built an AI Data Analyst Platform from scratch and selected the technologies to be used.",
+        "Developed the backend using Golang with a PostgreSQL database. Developed the frontend using Next.js server actions to improve data fetching before the client is ready.",
+        "Managed the entire service with Docker, and integrated third-party tools to handle container logging and Docker image management."
+      ]
+    },
+    {
+      "company": "Amori Inc.",
+      "position": "Mobile Developer",
+      "location": "United States - Remote",
+      "duration": "Apr 2025 - Jul 2025",
+      "employee_type": "Contract",
+      "team": "4+ Members",
+      "project": "1 Delivered",
+      "description": "<p>Amori is a dating platform powered by AI, where you can consult an AI Assistant. The AI Assistant will be able to learn about you and your relationship.</p>",
+      "highlights": [
+        "Developing a daily check-in question feature.",
+        "Improving the onboarding relationship feature.",
+        "Fixing minor bugs in several UI elements and app flows."
+      ]
+    },
+    {
+      "company": "PT. Visi Nusapati Utama",
+      "position": "Software Engineer",
+      "location": "Center Jakarta, Indonesia - Onsite",
+      "duration": "Apr 2021 - Oct 2024",
+      "employee_type": "Full-time",
+      "team": "4+ Members",
+      "project": "2+ Delivered",
+      "description": "<p>I built a ticketing & raffle system from scratch on the Karcisbola application, including a payment gateway, but the ticketing system is not yet fully used. I also researched many clouds to reduce costs in terms of deployment, both staging and production. I rebuilt the insurance broker system from scratch again, because the old system could not be maintained well. The broker system that I created only helps brokers in cross checking data from bank to insurance and vice versa.</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    },
+    {
+      "company": "PT. Nusantara Teknologi Solution",
+      "position": "Fullstack Developer",
+      "location": "West Jakarta, Indonesia - Onsite",
+      "duration": "Jun 2019 - Apr 2021",
+      "employee_type": "Full-time",
+      "team": "10+ Members",
+      "project": "3+ Delivered",
+      "description": "<p>The first time I worked at this company, I played the role of Backend Developer, this company operates in the Software House sector for private and government companies. with the many applications created, I developed many skills learned, both from the Backend, Frontend and DevOps side.</p>",
+      "highlights": [
+        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
+        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      ]
+    }
+  ]
+}
