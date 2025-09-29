@@ -40,7 +40,7 @@ const socials = [
   },
   {
     name: 'Resume',
-    href: 'https://drive.google.com/file/d/1An3Sb1dhqLFqtNt7fXvf5qK0HN_vovLV/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1WV46YuFBQuWR4r1pSZ61ifQPxHZ0dazT/view?usp=sharing',
     icon: IconFileSpark,
   },
 ]
