@@ -1,21 +1,8 @@
 {
   "projects": [
     {
-      "title": "KodingUp",
-      "description": "KodingUp is a bootcamp for web programming. And also you have opportunity about working aboard. Our intensive training program equips participants with essential coding skills, modern frameworks, and best practices for full-stack development. Join our community of aspiring developers and unlock global career opportunities in the tech industry.",
-      "slug": "/project/kodingup",
-      "thumbnail": "/static/project/kodingup.webp",
-      "url": "https://kodingup.com",
-      "date": "2025-02-30",
-      "tags": [
-        "KodingUp",
-        "Bootcamp",
-        "Web Programming"
-      ]
-    },
-    {
       "title": "Web Programming Hack",
-      "description": "Web Programming Hack is a bootcamp for web programming. And also you have opportunity about working aboard. Our intensive training program equips participants with essential coding skills, modern frameworks, and best practices for full-stack development. Join our community of aspiring developers and unlock global career opportunities in the tech industry.",
+      "description": "Web Programming Hack is a bootcamp for web programming, and it also offers an opportunity to work abroad. Our intensive training program equips participants with essential coding skills, modern frameworks, and best practices for full-stack development. Join our community of aspiring developers and unlock global career opportunities in the tech industry.",
       "slug": "/project/web-programming-hack",
       "thumbnail": "/static/project/wph.webp",
       "url": "https://wph.masb0ymas.com",
