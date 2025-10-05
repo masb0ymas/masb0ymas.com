@@ -9,10 +9,11 @@
       "team": "2 Members",
       "project": "1 Delivered",
       "description": "<p>Boatwork is a platform that connects customers with contractors specializing in boats, yachts, and ships. Through the platform, you can maintain, modify, and clean your vessel.</p>",
-      "highlights": [
+      "contributions": [
         "Improved the Web UI and added more pages about Boatwork.",
         "Maintained the codebase and fixed minor bugs."
-      ]
+      ],
+      "achievements": []
     },
     {
       "company": "Moneyflow ID",
@@ -23,9 +24,13 @@
       "team": "1 Member",
       "project": "1 Delivered",
       "description": "<p>Moneyflow is a comprehensive cash flow management platform designed to empower individuals and small to medium-sized enterprises (SMEs) to effectively manage their finances. The application provides real-time tracking of income and expenses, facilitating informed financial decision-making.</p>",
-      "highlights": [
-        "Built a tracking system for income and expenses. Developed a budgeting system for users to set and track their financial goals.",
-        "Developed the backend using Golang with PostgreSQL database. Developed the frontend using Next.js server actions to improve data fetching before the client is ready."
+      "contributions": [
+        "I have built a cashflow tracking system using Next.js with PWA support (mobile-friendly).",
+        "I have integrated OCR to make receipt scanning easier, which speeds up the process of inputting cashflow data such as expenses and income."
+      ],
+      "achievements": [
+        "I am learning more about how PWA and OCR work and how to implement them in my project.",
+        "I also set up CI/CD using GitHub Actions, which makes deployment easier."
       ]
     },
     {
@@ -37,10 +42,14 @@
       "team": "7+ Members",
       "project": "1 Delivered",
       "description": "<p>Arif is an AI-powered analytics platform designed to streamline and enhance data analysis. Leveraging advanced artificial intelligence, Arif automates the extraction of key insights, summaries, and feature identification from diverse data sets. Users can engage with the platform through natural language queries, enabling them to ask specific questions and receive precise answers regarding the analysis results.</p>",
-      "highlights": [
+      "contributions": [
         "Built an AI Data Analyst Platform from scratch and selected the technologies to be used.",
-        "Developed the backend using Golang with a PostgreSQL database. Developed the frontend using Next.js server actions to improve data fetching before the client is ready.",
+        "Developed the backend using Golang with a PostgreSQL database.",
+        "Developed the frontend using Next.js server actions to improve data fetching before the client is ready.",
         "Managed the entire service with Docker, and integrated third-party tools to handle container logging and Docker image management."
+      ],
+      "achievements": [
+        "I improved deployment by using a PaaS like Dokploy. Previously, I set up manual deployment with Traefik and custom configurations. This often caused conflicts in environment variables when running many services or websites."
       ]
     },
     {
@@ -52,10 +61,15 @@
       "team": "4+ Members",
       "project": "1 Delivered",
       "description": "<p>Amori is a dating platform powered by AI, where you can consult an AI Assistant. The AI Assistant will be able to learn about you and your relationship.</p>",
-      "highlights": [
-        "Developing a daily check-in question feature.",
-        "Improving the onboarding relationship feature.",
-        "Fixing minor bugs in several UI elements and app flows."
+      "contributions": [
+        "Development of the Amori iOS App",
+        "Development of a daily check-in question feature",
+        "Improvement of the onboarding relationship feature",
+        "Fixing of minor bugs in several UI elements and app flows"
+      ],
+      "achievements": [
+        "I have learned more about mobile structure per module.",
+        "I have learned that to minimize bugs in a mobile app, instead of relying on encapsulation methods, the best approach is to create a new screen to handle the same layout with different functionality."
       ]
     },
     {
@@ -66,10 +80,17 @@
       "employee_type": "Full-time",
       "team": "4+ Members",
       "project": "2+ Delivered",
-      "description": "<p>I built a ticketing & raffle system from scratch on the Karcisbola application, including a payment gateway, but the ticketing system is not yet fully used. I also researched many clouds to reduce costs in terms of deployment, both staging and production. I rebuilt the insurance broker system from scratch again, because the old system could not be maintained well. The broker system that I created only helps brokers in cross checking data from bank to insurance and vice versa.</p>",
-      "highlights": [
-        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
-        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      "description": "<p>Karcisbola is a ticketing platform that makes it easier for people to buy football match tickets at the stadium, and it also includes a raffle system. And then I development the Trasmi. Trasmi Broker is an insurance brokerage firm that partners with multiple banks to handle incoming insurance data, which is subsequently delivered to the banks after processing.</p>",
+      "contributions": [
+        "I developed the backend with Node.js and the frontend with Next.js.",
+        "I implemented third-party services, such as a payment gateway.",
+        "I have learned about how an insurance broker works, and I adjusted the business flow using the backend to manage new insurance data—such as filtering records and matching data to the correct person while the insurance is still active.",
+        "I chose several tech to process the Excel data with 100K rows to smooth the process."
+      ],
+      "achievements": [
+        "I improved the data processing from CSV or Excel files with around 100K rows and optimized the filtering step to prepare the data for the next stage.",
+        "I researched many clouds to reduce costs in terms of deployment, both staging and production.",
+        "I improved my starter kit by adding Docker container support to make it easier to deploy services or websites."
       ]
     },
     {
@@ -80,10 +101,15 @@
       "employee_type": "Full-time",
       "team": "10+ Members",
       "project": "3+ Delivered",
-      "description": "<p>The first time I worked at this company, I played the role of Backend Developer, this company operates in the Software House sector for private and government companies. with the many applications created, I developed many skills learned, both from the Backend, Frontend and DevOps side.</p>",
-      "highlights": [
-        "Optimized API response time from 1 second to 200 milliseconds, significantly improving user experience across platforms",
-        "Supported a system with over 3,000 registered users and managed 1,000+ transactions, ensuring strong protection of personal data"
+      "description": "<p>Nusantech is a Software House and IT Consulting company where I began my career as a Web Developer. During my time here, I gained valuable experience working on government and private sector projects while developing professionally in a supportive environment.</p>",
+      "contributions": [
+        "Delivered projects for government and private sector clients.",
+        "Built and maintained starter kits to accelerate development of new services and websites.",
+        "Mentored vocational school interns in web development."
+      ],
+      "achievements": [
+        "Developed and maintained reusable starter kits (frontend & backend).",
+        "Gained experience mentoring vocational school interns."
       ]
     }
   ]

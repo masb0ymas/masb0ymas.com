@@ -15,7 +15,7 @@
     },
     {
       "title": "Seadev",
-      "description": "Cost Effective Engineering Talent to Help Your Startup Thrive. Our team of skilled developers and engineers provides affordable technical solutions tailored to emerging businesses. We focus on delivering high-quality work while keeping costs manageable, enabling startups to build robust products without breaking the budget. Partner with us to accelerate your growth journey.",
+      "description": "Cost-effective engineering talent to help your startup thrive. Our team of skilled developers and engineers provides high-quality, affordable technical solutions tailored to emerging businesses. We focus on delivering high-quality work while keeping costs manageable, enabling startups to build robust products without breaking the budget. Partner with us to accelerate your growth journey.",
       "slug": "/project/seadev",
       "thumbnail": "/static/project/seadev.webp",
       "url": "https://seadev.com.au",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Boatwork",
-      "description": "Professional boat and yacht services specializing in comprehensive repairs, state-of-the-art audio system enhancements, custom modifications, and routine maintenance. Our expert technicians deliver exceptional quality workmanship for all marine vessels, ensuring optimal performance, safety, and enjoyment on the water with attention to detail and personalized service.",
+      "description": "Professional boat and yacht services specializing in comprehensive repairs, state-of-the-art audio system enhancements, custom modifications, and routine maintenance. Our expert technicians deliver exceptional quality workmanship for all marine vessels, ensuring optimal performance, safety, and enjoyment on the water, with attention to detail and personalized service.",
       "slug": "/project/boatwork",
       "thumbnail": "/static/project/boatwork.webp",
       "url": "https://boatwork.co",
@@ -43,7 +43,7 @@
     },
     {
       "title": "Moneyflow ID",
-      "description": "Moneyflow ID is a comprehensive web application designed to help you take control of your financial life by tracking and managing your cashflow effectively. The platform offers intuitive tools for monitoring income sources, categorizing expenses, creating personalized budgets, generating financial reports, and setting savings goals to improve your overall financial health and decision-making.",
+      "description": "Moneyflow ID is a comprehensive web application designed to help you take control of your financial life by tracking and managing your cash flow effectively. The platform offers intuitive tools for monitoring income sources, categorizing expenses, creating personalized budgets, generating financial reports, and setting savings goals to improve your overall financial health and decision-making.",
       "slug": "/project/moneyflow-id",
       "thumbnail": "/static/project/moneyflow-id.webp",
       "url": "https://moneyflow.id",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Arif Analytics",
-      "description": "Data Analysis platform utilize AI to analyze your data. And also you can chat with your result to gain deeper insights, explore patterns, and extract actionable intelligence from complex datasets. Our advanced algorithms provide comprehensive visualization and interpretation of your data in real-time.",
+      "description": "Data Analysis platform utilizing AI to analyze your data. You can also chat with your result to gain deeper insights, explore patterns, and extract actionable intelligence from complex datasets. Our advanced algorithms provide comprehensive visualization and interpretation of your data in real-time.",
       "slug": "/project/arif-analytics",
       "thumbnail": "/static/project/goarif.webp",
       "url": "https://goarif.co",
@@ -83,7 +83,7 @@
     },
     {
       "title": "Kickstarter",
-      "description": "Kickstarter on web3 revolutionizes project fundraising by leveraging blockchain technology for transparent, secure, and decentralized crowdfunding. Create campaigns with smart contracts that automatically execute when funding goals are met, eliminating intermediaries and reducing fees while providing immutable records of all transactions and supporter contributions.",
+      "description": "Kickstarter on web3 revolutionizes project fundraising by leveraging blockchain technology to provide transparent, secure, and decentralized crowdfunding. Create campaigns with smart contracts that automatically execute when funding goals are met, eliminating intermediaries and reducing fees while providing immutable records of all transactions and supporter contributions.",
       "slug": "/project/kickstarter",
       "thumbnail": "/static/project/kickstarter.webp",
       "url": "https://kickstarter.masb0ymas.com",
