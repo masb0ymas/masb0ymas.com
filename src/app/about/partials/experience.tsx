@@ -1,4 +1,4 @@
-import { IconBolt, IconCalendar, IconTarget, IconUsers } from '@tabler/icons-react'
+import { IconAward, IconBolt, IconCalendar, IconTarget, IconUsers } from '@tabler/icons-react'
 import React from 'react'
 import SectionTitle from '~/components/common/section-title'
 import { Separator } from '~/components/ui/separator'
@@ -63,18 +63,31 @@ export default function Experience() {
                   <div className="rounded-sm bg-neutral-100 p-1 dark:bg-neutral-800">
                     <IconBolt className="h-4 w-4 items-center" />
                   </div>
-                  <p className="text-sm">Key Highlights</p>
+                  <p className="text-sm">Contributions:</p>
                 </div>
 
-                <div className="space-y-4">
-                  {experience.highlights.map((highlight, index) => (
-                    <CardHighlight key={index} content={highlight} />
+                <div className="space-y-2">
+                  {experience.contributions.map((item, index) => (
+                    <CardHighlight key={index} content={item} />
                   ))}
                 </div>
 
-                <div className="text-muted-foreground my-4 flex flex-row items-center gap-2">
-                  <p className="text-sm">Show more...</p>
-                </div>
+                {experience.achievements.length > 0 && (
+                  <>
+                    <div className="text-muted-foreground my-4 flex flex-row items-center gap-2">
+                      <div className="rounded-sm bg-neutral-100 p-1 dark:bg-neutral-800">
+                        <IconAward className="h-4 w-4 items-center" />
+                      </div>
+                      <p className="text-sm">Achievements:</p>
+                    </div>
+
+                    <div className="space-y-2">
+                      {experience.achievements.map((item, index) => (
+                        <CardHighlight key={index} content={item} />
+                      ))}
+                    </div>
+                  </>
+                )}
               </div>
             </div>
 
