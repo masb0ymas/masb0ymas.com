@@ -76,6 +76,9 @@ export default function RootLayout({
         {/* iOS Settings */}
         <meta content="yes" name="apple-mobile-web-app-capable" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        {/* Analytics with Umami */}
+        <script defer src="https://analytics.masb0ymas.com/script.js" data-website-id="3dc86a90-22d0-42c7-a4b9-c821f10e61a1"></script>
       </head>
       <body className={`${NunitoSans.variable} antialiased`}>
         <DecoratorProvider>{children}</DecoratorProvider>
