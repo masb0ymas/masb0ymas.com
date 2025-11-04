@@ -3,6 +3,6 @@ import MainLayout from '~/components/layouts/main'
 
 type IProps = PropsWithChildren
 
-export default function AboutLayout({ children }: IProps) {
+export default function SiteLayout({ children }: IProps) {
   return <MainLayout>{children}</MainLayout>
 }
