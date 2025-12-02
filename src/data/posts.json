@@ -2,9 +2,9 @@
   "posts": [
     {
       "title": "Bagaimana cara setup Git dan GitHub pada local device",
-      "description": "Panduan bagaimana cara setup Git dan GitHub pada local device",
+      "description": "Panduan lengkap dan komprehensif tentang bagaimana cara melakukan setup dan konfigurasi Git serta GitHub pada perangkat lokal Anda. Tutorial ini mencakup proses instalasi Git, pengaturan identitas pengguna, konfigurasi SSH keys, menghubungkan repository lokal dengan GitHub, dan berbagai perintah dasar Git yang diperlukan untuk memulai version control dalam proyek development Anda.",
       "slug": "/blog/bagaimana-cara-setup-git-dan-github-pada-local-device",
-      "thumbnail": "/static/blog/ci-cd-github-actions-gcp/github_action_build_success.webp",
+      "thumbnail": "/static/blog/setup-git-and-github/thumbnail.png",
       "date": "2025-12-02",
       "tags": ["git", "github"]
     },
