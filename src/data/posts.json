@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "Bagaimana cara setup Git dan GitHub pada local device",
+      "description": "Panduan bagaimana cara setup Git dan GitHub pada local device",
+      "slug": "/blog/bagaimana-cara-setup-git-dan-github-pada-local-device",
+      "thumbnail": "/static/blog/ci-cd-github-actions-gcp/github_action_build_success.webp",
+      "date": "2025-12-02",
+      "tags": ["git", "github"]
+    },
+    {
       "title": "How to Use GitHub Actions for CI/CD and Push to Google Artifact Registry",
       "description": "A guide to setting up a CI/CD workflow using GitHub Actions to automate the build and deployment process and push artifacts to Google Artifact Registry.",
       "slug": "/blog/how-to-use-github-action-for-ci-cd-and-push-to-google-artifact-registry",

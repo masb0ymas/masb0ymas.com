@@ -1,0 +1,93 @@
+import { formatLocalDate } from '~/lib/date'
+import BadgeList from '../components/badge'
+
+# Bagaimana cara setup Git dan GitHub pada local device
+<BadgeList labels={['git', 'github']} />
+<span className="text-sm lg:text-base text-neutral-600 dark:text-neutral-400">{formatLocalDate('2025-12-02', "dd MMMM yyyy")}</span>
+
+Pada kesempatan kali ini kita akan membahas bagaimana cara setup git dan github di local device.
+
+Dengan SSH Key pada GitHub dapat mempermudah kita untuk melakukan push code ke repository GitHub tanpa harus menginput username dan password setiap kali melakukan push code.
+
+![Web Remix IDE](/static/blog/setup-git-and-github/thumbnail.png)
+
+## Setup Git
+
+Pertama pastikan dahulu OS yang kita akan gunakan nantinya, apakah sudah terinstall Git atau belum. 
+
+Jika belum, kita perlu menginstall Git terlebih dahulu. Sesuaikan dengan OS yang digunakan (Linux, Windows, atau macOS).
+
+Untuk menginstall Git bisa diakses dari sini: [https://git-scm.com/install/linux](https://git-scm.com/install/linux).
+
+![Install Git](/static/blog/setup-git-and-github/download-git.png)
+
+Setelah menginstall Git, kita perlu mengkonfigurasi Git dengan nama dan email kita.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+Teman-teman bisa sesuaikan "Your Name" dengan nama masing-masing, begitu juga dengan email pastikan emailnya sama dengan yang terdaftar pada GitHub.
+
+Setelah menginstall Git, kita perlu mengkonfigurasi Git dengan nama dan email kita.
+
+## Setup SSH Key
+
+Lanjut kita setup SSH Key dari local device dan tambahkan juga nanti public key yang sudah digenerate pada GitHub.
+
+Dokumentasi bagaimana cara generate SSH Key bisa diakses dari sini: [https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+Sesuaikan dengan OS yang digunakan (Linux, Windows, atau macOS).
+
+Untuk menggenerate SSH Key, kita bisa menggunakan perintah berikut:
+
+```bash
+ssh-keygen -t ed25519 -C "your.email@example.com"
+```
+
+Lalu teman-teman bisa pencet `Enter`, setelah mengeksekusi perintah diatas, akan muncul output seperti ini:
+
+![Generate SSH Key](/static/blog/setup-git-and-github/generate-ssh-key.png)
+
+Jika output nya sudah muncul, lanjut kita copy public key yang sudah digenerate.
+
+Sebelum itu kita install dahulu `xlip` untuk memudahkan kita copy public key yang sudah digenerate.
+
+```bash
+sudo apt-get update && sudo apt-get install xclip
+```
+
+Lalu teman-teman bisa menggunakan perintah berikut:
+
+```bash
+xclip -sel clip < ~/.ssh/id_ed25519.pub
+```
+
+Setelah kita jalankan command diatas, lanjut kita paste public key yang sudah digenerate pada GitHub.
+
+![Add SSH Key](/static/blog/setup-git-and-github/add-ssh-key.png)
+
+Lanjut pencet tombol `New SSH key`.
+
+Setelah itu kita simpan SSH Key tersebut dengan `title` yang sesuai dengan OS yang digunakan agar mempermudah kita mengetahui SSH Key ini digunakan dimana.
+
+![Save SSH Key](/static/blog/setup-git-and-github/save-ssh-key.png)
+
+Setelah proses setup SSH Key selesai, lanjut kita test koneksi SSH dengan GitHub.
+
+## Initial Repository with SSH Key
+
+Pastikan teman-teman memilih `SSH` ketika membuat repository baru.
+
+Lanjut kita jalan kan perintah dibawah ini:
+
+![Init Repo](/static/blog/setup-git-and-github/init-repo.png)
+
+Mari kita coba initial repository dan push code ke GitHub. Jika ada pertanyaan seperti berikut ini, teman-teman bisa ketik `yes`.
+
+```bash
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+```
+
+![Init Repo](/static/blog/setup-git-and-github/init-repo-2.png)
