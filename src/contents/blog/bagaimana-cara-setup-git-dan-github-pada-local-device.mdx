@@ -52,6 +52,16 @@ Lalu teman-teman bisa pencet `Enter`, setelah mengeksekusi perintah diatas, akan
 
 Jika output nya sudah muncul, lanjut kita copy public key yang sudah digenerate.
 
+### Copy to clipboard di macOS
+
+Untuk macOS teman-teman bisa menggunakan perintah berikut:
+
+```bash
+cat ~/.ssh/id_ed25519.pub | pbcopy
+```
+
+### Copy to clipboard di Linux
+
 Sebelum itu kita install dahulu `xlip` untuk memudahkan kita copy public key yang sudah digenerate.
 
 ```bash
@@ -63,6 +73,19 @@ Lalu teman-teman bisa menggunakan perintah berikut:
 ```bash
 xclip -sel clip < ~/.ssh/id_ed25519.pub
 ```
+
+### Copy to clipboard di Windows
+
+![Windows ssh location](/static/blog/setup-git-and-github/windows-ssh-location.png)
+![Print out public key](/static/blog/setup-git-and-github/print-out-public-key.png)
+
+Untuk Windows teman-teman bisa ke folder `C:\Users\<username>\.ssh` dan copy public key yang sudah digenerate. Lalu `Open Git Bash Here` dan jalankan perintah berikut:
+
+```bash
+cat id_ed25519.pub
+```
+
+Block semua hasil print out nya dan copy hasil print out nya.
 
 Setelah kita jalankan command diatas, lanjut kita paste public key yang sudah digenerate pada GitHub. Untuk mempermudah teman-teman menambahkan SSH Key bisa akses disini: [https://github.com/settings/keys](https://github.com/settings/keys).
 
