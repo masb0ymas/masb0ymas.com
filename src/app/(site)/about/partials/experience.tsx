@@ -1,8 +1,10 @@
 import { IconAward, IconBolt, IconCalendar, IconTarget, IconUsers } from '@tabler/icons-react'
 import React from 'react'
+
 import SectionTitle from '~/components/common/section-title'
 import { Separator } from '~/components/ui/separator'
 import experienceJson from '~/data/experience.json'
+
 import CardExperience from '../components/card-experience'
 import CardHighlight from '../components/card-highlight'
 import Company from '../components/company'

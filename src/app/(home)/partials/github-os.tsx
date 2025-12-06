@@ -1,8 +1,9 @@
 'use client'
 
 /* eslint-disable @next/next/no-img-element */
-import { useTheme } from 'next-themes'
 import Link from 'next/link'
+import { useTheme } from 'next-themes'
+
 import SectionTitle from '~/components/common/section-title'
 import SeeMore from '~/components/common/see-more'
 

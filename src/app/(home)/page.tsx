@@ -1,4 +1,5 @@
 import MainLayout from '~/components/layouts/main'
+
 import Benefit from './partials/benefit'
 import FeaturedPosts from './partials/blog'
 import CTA from './partials/cta'

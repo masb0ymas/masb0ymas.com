@@ -2,6 +2,7 @@ import './globals.css'
 
 import type { Metadata } from 'next'
 import { Nunito_Sans } from 'next/font/google'
+
 import DecoratorProvider from '~/lib/provider/decorator'
 
 const NunitoSans = Nunito_Sans({

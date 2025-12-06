@@ -2,6 +2,7 @@
 
 import CardPost from '~/components/common/card-post'
 import { Separator } from '~/components/ui/separator'
+
 import { usePostContext } from './context'
 
 export default function BlogList() {

@@ -1,8 +1,10 @@
 'use client'
 
 import React from 'react'
+
 import { CardProjectLeft, CardProjectRight } from '~/components/common/card-project'
 import { Separator } from '~/components/ui/separator'
+
 import { useProjectContext } from './context'
 
 export default function ProjectList() {

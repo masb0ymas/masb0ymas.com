@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+
 import SyntaxHighlighting from '~/components/common/syntax-highlighting'
 import projectsJson from '~/data/projects.json'
 

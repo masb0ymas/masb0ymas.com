@@ -1,4 +1,5 @@
 import { IconBriefcase, IconMapPin } from '@tabler/icons-react'
+
 import Typography from '~/components/common/typography'
 
 interface CompanyProps {

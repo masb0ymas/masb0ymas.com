@@ -4,9 +4,11 @@
 import { useDebounce } from '@uidotdev/usehooks'
 import Fuse from 'fuse.js'
 import { useEffect, useMemo, useState } from 'react'
+
 import { Input } from '~/components/ui/input'
 import { Separator } from '~/components/ui/separator'
 import { Project } from '~/types/project'
+
 import { useProjectContext } from './context'
 
 export default function Hero() {

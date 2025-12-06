@@ -1,4 +1,5 @@
 import { PropsWithChildren } from 'react'
+
 import MainLayout from '~/components/layouts/main'
 
 type IProps = PropsWithChildren

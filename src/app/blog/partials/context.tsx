@@ -1,6 +1,7 @@
 'use client'
 
 import { createContext, useCallback, useContext, useMemo, useState } from 'react'
+
 import postJson from '~/data/posts.json'
 import { Post } from '~/types/post'
 

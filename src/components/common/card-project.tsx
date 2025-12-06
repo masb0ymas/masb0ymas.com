@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
+
 import { Project } from '~/types/project'
+
 import { Badge } from '../ui/badge'
 
 export function CardProjectLeft({ thumbnail, title, description, slug, tags }: Project) {

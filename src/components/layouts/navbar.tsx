@@ -2,12 +2,14 @@
 
 import { Moon, Sun } from 'lucide-react'
 import { AnimatePresence, motion } from 'motion/react'
-import { useTheme } from 'next-themes'
 import Link from 'next/link'
+import { useTheme } from 'next-themes'
 import { useState } from 'react'
+
+import { env } from '~/env'
 import { useBreakPoint } from '~/hooks/useBreakpoint'
-import { env } from '~/lib/constant/env'
 import { cn } from '~/lib/utils'
+
 import { Button } from '../ui/button'
 
 type NavLinks = { label: string; href: string }
@@ -32,7 +34,7 @@ export default function Navbar() {
               href="/"
               className="hover:text-primary-200 dark:hover:text-primary-100 text-xl font-bold text-white transition-colors md:text-2xl"
             >
-              {env.APP_NAME}
+              {env.NEXT_PUBLIC_APP_NAME}
             </Link>
           </div>
 

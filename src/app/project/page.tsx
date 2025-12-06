@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+
 import { ProjectProvider } from './partials/context'
 import Hero from './partials/hero'
 import ProjectList from './partials/project-list'

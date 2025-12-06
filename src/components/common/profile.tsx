@@ -9,6 +9,7 @@ import {
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+
 import DotPulse from './dot-pulse'
 import CommonTooltip from './tooltip'
 

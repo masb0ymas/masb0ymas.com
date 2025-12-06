@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+
 import SectionTitle from '~/components/common/section-title'
 import { Separator } from '~/components/ui/separator'
 import educationJson from '~/data/education.json'

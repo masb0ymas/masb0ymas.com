@@ -1,6 +1,7 @@
 'use client'
 
 import { useTheme } from 'next-themes'
+
 import { MagicCard } from '~/components/ui/magic-card'
 
 interface CardHighlightProps {

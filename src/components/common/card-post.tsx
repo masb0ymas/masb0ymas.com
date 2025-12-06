@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
+
 import { formatLocalDate } from '~/lib/date'
 import { Post } from '~/types/post'
+
 import { Badge } from '../ui/badge'
 
 export default function CardPost({ thumbnail, title, description, slug, date, tags }: Post) {

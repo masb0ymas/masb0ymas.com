@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+
 import BlogList from './partials/blog-list'
 import { PostProvider } from './partials/context'
 import Hero from './partials/hero'

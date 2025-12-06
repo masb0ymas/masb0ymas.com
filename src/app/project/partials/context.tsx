@@ -1,6 +1,7 @@
 'use client'
 
 import { createContext, useCallback, useContext, useMemo, useState } from 'react'
+
 import projectJson from '~/data/projects.json'
 import { Project } from '~/types/project'
 
