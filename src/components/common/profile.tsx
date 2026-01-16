@@ -41,7 +41,7 @@ const socials = [
   },
   {
     name: 'Resume',
-    href: 'https://drive.google.com/file/d/1WV46YuFBQuWR4r1pSZ61ifQPxHZ0dazT/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1eNZidVlnXwcSqT_kIyxH96CwxzwQ3uK4/view?usp=sharing',
     icon: IconFileSpark,
   },
 ]
