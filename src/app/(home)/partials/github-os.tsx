@@ -3,10 +3,10 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
 import { useTheme } from 'next-themes'
+import { useMemo } from 'react'
 
 import SectionTitle from '~/components/common/section-title'
 import SeeMore from '~/components/common/see-more'
-import { useMemo } from 'react'
 
 export default function GithubOS() {
   const { theme } = useTheme()
