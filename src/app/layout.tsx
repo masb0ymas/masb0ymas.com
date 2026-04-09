@@ -82,7 +82,7 @@ export default function RootLayout({
         <script
           defer
           src="https://analytics.masb0ymas.com/script.js"
-          data-website-id="30e3eeceb-7763-401b-8992-d80594f12454"
+          data-website-id="0e3eeceb-7763-401b-8992-d80594f12454"
         ></script>
       </head>
       <body className={`${NunitoSans.variable} antialiased`}>
